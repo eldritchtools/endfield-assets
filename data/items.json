@@ -1,0 +1,449 @@
+{
+  "Aketine": {
+    "name": "Aketine"
+  },
+  "Aketine_Powder": {
+    "name": "Aketine Powder"
+  },
+  "Aketine_Seed": {
+    "name": "Aketine Seed"
+  },
+  "Amber_Rice": {
+    "name": "Amber Rice"
+  },
+  "Amber_Rice_Seed": {
+    "name": "Amber Rice Seed"
+  },
+  "Amethyst_Bottle": {
+    "name": "Amethyst Bottle",
+    "outpostValue": [
+      {
+        "value": 2,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Amethyst_Bottle_(Clean_Water)": {
+    "name": "Amethyst Bottle (Clean Water)"
+  },
+  "Amethyst_Bottle_(Jincao_Solution)": {
+    "name": "Amethyst Bottle (Jincao Solution)"
+  },
+  "Amethyst_Bottle_(Liquid_Xiranite)": {
+    "name": "Amethyst Bottle (Liquid Xiranite)"
+  },
+  "Amethyst_Bottle_(Yazhen_Solution)": {
+    "name": "Amethyst Bottle (Yazhen Solution)"
+  },
+  "Amethyst_Component": {
+    "name": "Amethyst Component"
+  },
+  "Amethyst_Fiber": {
+    "name": "Amethyst Fiber"
+  },
+  "Amethyst_Ore": {
+    "name": "Amethyst Ore"
+  },
+  "Amethyst_Part": {
+    "name": "Amethyst Part",
+    "outpostValue": [
+      {
+        "value": 1,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Amethyst_Powder": {
+    "name": "Amethyst Powder"
+  },
+  "Buck_Capsule_[A]": {
+    "name": "Buck Capsule [A]",
+    "outpostValue": [
+      {
+        "value": 70,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Buck_Capsule_[B]": {
+    "name": "Buck Capsule [B]",
+    "outpostValue": [
+      {
+        "value": 27,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Buck_Capsule_[C]": {
+    "name": "Buck Capsule [C]",
+    "outpostValue": [
+      {
+        "value": 10,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Buckflower": {
+    "name": "Buckflower"
+  },
+  "Buckflower_Powder": {
+    "name": "Buckflower Powder"
+  },
+  "Buckflower_Seed": {
+    "name": "Buckflower Seed"
+  },
+  "Bumper-Rich": {
+    "name": "Bumper-Rich"
+  },
+  "Burdo-Muck": {
+    "name": "Burdo-Muck"
+  },
+  "Canned_Citrome_[A]": {
+    "name": "Canned Citrome [A]",
+    "outpostValue": [
+      {
+        "value": 70,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Canned_Citrome_[B]": {
+    "name": "Canned Citrome [B]",
+    "outpostValue": [
+      {
+        "value": 27,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Canned_Citrome_[C]": {
+    "name": "Canned Citrome [C]",
+    "outpostValue": [
+      {
+        "value": 10,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Carbon": {
+    "name": "Carbon"
+  },
+  "Carbon_Powder": {
+    "name": "Carbon Powder"
+  },
+  "Cartilage_Bit": {
+    "name": "Cartilage Bit"
+  },
+  "Citrome": {
+    "name": "Citrome"
+  },
+  "Citrome_Powder": {
+    "name": "Citrome Powder"
+  },
+  "Citrome_Seed": {
+    "name": "Citrome Seed"
+  },
+  "Citromix": {
+    "name": "Citromix"
+  },
+  "Clean_Water": {
+    "name": "Clean Water"
+  },
+  "Cryston_Bottle": {
+    "name": "Cryston Bottle"
+  },
+  "Cryston_Bottle_(Clean_Water)": {
+    "name": "Cryston Bottle (Clean Water)"
+  },
+  "Cryston_Bottle_(Jincao_Solution)": {
+    "name": "Cryston Bottle (Jincao Solution)"
+  },
+  "Cryston_Bottle_(Liquid_Xiranite)": {
+    "name": "Cryston Bottle (Liquid Xiranite)"
+  },
+  "Cryston_Bottle_(Yazhen_Solution)": {
+    "name": "Cryston Bottle (Yazhen Solution)"
+  },
+  "Cryston_Component": {
+    "name": "Cryston Component"
+  },
+  "Cryston_Fiber": {
+    "name": "Cryston Fiber"
+  },
+  "Cryston_Part": {
+    "name": "Cryston Part"
+  },
+  "Cryston_Powder": {
+    "name": "Cryston Powder"
+  },
+  "Dense_Carbon_Powder": {
+    "name": "Dense Carbon Powder"
+  },
+  "Dense_Ferrium_Powder": {
+    "name": "Dense Ferrium Powder"
+  },
+  "Dense_Originium_Powder": {
+    "name": "Dense Originium Powder"
+  },
+  "Dense_Origocrust_Powder": {
+    "name": "Dense Origocrust Powder"
+  },
+  "Ferrium": {
+    "name": "Ferrium"
+  },
+  "Ferrium_Bottle": {
+    "name": "Ferrium Bottle"
+  },
+  "Ferrium_Bottle_(Clean_Water)": {
+    "name": "Ferrium Bottle (Clean Water)"
+  },
+  "Ferrium_Bottle_(Jincao_Solution)": {
+    "name": "Ferrium Bottle (Jincao Solution)"
+  },
+  "Ferrium_Bottle_(Liquid_Xiranite)": {
+    "name": "Ferrium Bottle (Liquid Xiranite)"
+  },
+  "Ferrium_Bottle_(Yazhen_Solution)": {
+    "name": "Ferrium Bottle (Yazhen Solution)"
+  },
+  "Ferrium_Component": {
+    "name": "Ferrium Component"
+  },
+  "Ferrium_Ore": {
+    "name": "Ferrium Ore"
+  },
+  "Ferrium_Part": {
+    "name": "Ferrium Part",
+    "outpostValue": [
+      {
+        "value": 1,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Ferrium_Powder": {
+    "name": "Ferrium Powder"
+  },
+  "Fillet": {
+    "name": "Fillet"
+  },
+  "Firebuckle": {
+    "name": "Firebuckle"
+  },
+  "Firebuckle_Powder": {
+    "name": "Firebuckle Powder"
+  },
+  "Fluffed_Jincao": {
+    "name": "Fluffed Jincao"
+  },
+  "Fluffed_Jincao_Powder": {
+    "name": "Fluffed Jincao Powder"
+  },
+  "Glowbug": {
+    "name": "Glowbug"
+  },
+  "Ground_Buckflower_Powder": {
+    "name": "Ground Buckflower Powder"
+  },
+  "Ground_Citrome_Powder": {
+    "name": "Ground Citrome Powder"
+  },
+  "HC_Valley_Battery": {
+    "name": "HC Valley Battery",
+    "outpostValue": [
+      {
+        "value": 70,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Industrial_Explosive": {
+    "name": "Industrial Explosive"
+  },
+  "Jincao": {
+    "name": "Jincao"
+  },
+  "Jincao_Drink": {
+    "name": "Jincao Drink",
+    "outpostValue": [
+      {
+        "value": 16,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Jincao_Infusion": {
+    "name": "Jincao Infusion"
+  },
+  "Jincao_Powder": {
+    "name": "Jincao Powder"
+  },
+  "Jincao_Seed": {
+    "name": "Jincao Seed"
+  },
+  "Jincao_Solution": {
+    "name": "Jincao Solution"
+  },
+  "LC_Valley_Battery": {
+    "name": "LC Valley Battery",
+    "outpostValue": [
+      {
+        "value": 16,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "LC_Wuling_Battery": {
+    "name": "LC Wuling Battery",
+    "outpostValue": [
+      {
+        "value": 25,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Liquid_Xiranite": {
+    "name": "Liquid Xiranite"
+  },
+  "Originium_Ore": {
+    "name": "Originium Ore"
+  },
+  "Originium_Powder": {
+    "name": "Originium Powder"
+  },
+  "Origocrust": {
+    "name": "Origocrust",
+    "outpostValue": [
+      {
+        "value": 1,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Origocrust_Powder": {
+    "name": "Origocrust Powder"
+  },
+  "Packed_Origocrust": {
+    "name": "Packed Origocrust"
+  },
+  "Redjade_Ginseng": {
+    "name": "Redjade Ginseng"
+  },
+  "Redjade_Ginseng_Seed": {
+    "name": "Redjade Ginseng Seed"
+  },
+  "Reed_Rye": {
+    "name": "Reed Rye"
+  },
+  "Reed_Rye_Seed": {
+    "name": "Reed Rye Seed"
+  },
+  "SC_Valley_Battery": {
+    "name": "SC Valley Battery",
+    "outpostValue": [
+      {
+        "value": 30,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Sandleaf": {
+    "name": "Sandleaf"
+  },
+  "Sandleaf_Powder": {
+    "name": "Sandleaf Powder"
+  },
+  "Sandleaf_Seed": {
+    "name": "Sandleaf Seed"
+  },
+  "Scorchbug": {
+    "name": "Scorchbug"
+  },
+  "Stabilized_Carbon": {
+    "name": "Stabilized Carbon"
+  },
+  "Steel": {
+    "name": "Steel"
+  },
+  "Steel_Bottle": {
+    "name": "Steel Bottle"
+  },
+  "Steel_Bottle_(Clean_Water)": {
+    "name": "Steel Bottle (Clean Water)"
+  },
+  "Steel_Bottle_(Jincao_Solution)": {
+    "name": "Steel Bottle (Jincao Solution)"
+  },
+  "Steel_Bottle_(Liquid_Xiranite)": {
+    "name": "Steel Bottle (Liquid Xiranite)"
+  },
+  "Steel_Bottle_(Yazhen_Solution)": {
+    "name": "Steel Bottle (Yazhen Solution)"
+  },
+  "Steel_Part": {
+    "name": "Steel Part",
+    "outpostValue": [
+      {
+        "value": 3,
+        "zone": "valley4"
+      }
+    ]
+  },
+  "Tartpepper": {
+    "name": "Tartpepper"
+  },
+  "Tartpepper_Seed": {
+    "name": "Tartpepper Seed"
+  },
+  "Thorny_Yazhen": {
+    "name": "Thorny Yazhen"
+  },
+  "Thorny_Yazhen_Powder": {
+    "name": "Thorny Yazhen Powder"
+  },
+  "Umbraline": {
+    "name": "Umbraline"
+  },
+  "Wood": {
+    "name": "Wood"
+  },
+  "Xiranite": {
+    "name": "Xiranite",
+    "outpostValue": [
+      {
+        "value": 1,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Xiranite_Component": {
+    "name": "Xiranite Component"
+  },
+  "Yazhen": {
+    "name": "Yazhen"
+  },
+  "Yazhen_Powder": {
+    "name": "Yazhen Powder"
+  },
+  "Yazhen_Seed": {
+    "name": "Yazhen Seed"
+  },
+  "Yazhen_Solution": {
+    "name": "Yazhen Solution"
+  },
+  "Yazhen_Spray_[L]": {
+    "name": "Yazhen Spray [L]"
+  },
+  "Yazhen_Spray_[S]": {
+    "name": "Yazhen Spray [S]"
+  },
+  "Yazhen_Syringe_[C]": {
+    "name": "Yazhen Syringe [C]",
+    "outpostValue": [
+      {
+        "value": 16,
+        "zone": "wuling"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+name: Sync to Cloudflare R2
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "assets/**"
+  workflow_dispatch:
+
+jobs:
+  sync-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create or update meta.json
+        run: |
+          echo "{\"datetime\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"}" > meta.json
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add meta.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update meta.json [skip ci]"
+            git push
+          fi
+
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Create rclone config
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf <<'EOF'
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = ${{ secrets.R2_ACCESS_KEY_ID }}
+          secret_access_key = ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          endpoint = ${{ secrets.R2_JURISDICTION_SPECIFIC_ENDPOINT }}
+          EOF
+
+      # - name: List R2 buckets
+      #   run: rclone ls "r2:${{ secrets.R2_BUCKET }}"
+      
+      - name: Sync assets to R2 (checksum-based)
+        run: |
+          rclone sync assets r2:${{ secrets.R2_BUCKET }}/assets --checksum --fast-list
+
+      - name: Sync data to R2 (checksum-based)
+        run: |
+          rclone sync data r2:${{ secrets.R2_BUCKET }}/data --checksum --fast-list
+
+      - name: Sync meta to R2 (checksum-based)
+        run: |
+          rclone copyto meta.json r2:${{ secrets.R2_BUCKET }}/meta.json
+
+      - name: Purge Cloudflare cache
+        run: python3 .github/scripts/purge_json_cache.py
+        env:
+          R2_CUSTOM_DOMAIN: ${{ secrets.R2_CUSTOM_DOMAIN }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_PURGE_API_TOKEN: ${{ secrets.CF_PURGE_API_TOKEN }}
+          GITHUB_BEFORE: ${{ github.event.before }}
+          GITHUB_AFTER: ${{ github.sha }}
