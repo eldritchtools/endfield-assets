@@ -1,4 +1,10 @@
 {
+  "Advanced_Cognitive_Carrier": {
+    "name": "Advanced Cognitive Carrier"
+  },
+  "Advanced_Combat_Record": {
+    "name": "Advanced Combat Record"
+  },
   "Aketine": {
     "name": "Aketine"
   },
@@ -55,6 +61,24 @@
   },
   "Amethyst_Powder": {
     "name": "Amethyst Powder"
+  },
+  "Arms_INSP_Kit": {
+    "name": "Arms INSP Kit"
+  },
+  "Arms_INSP_Set": {
+    "name": "Arms INSP Set"
+  },
+  "Arms_Inspector": {
+    "name": "Arms Inspector"
+  },
+  "Auronyx": {
+    "name": "Auronyx"
+  },
+  "Blighted_Jadeleaf": {
+    "name": "Blighted Jadeleaf"
+  },
+  "Bloodcap": {
+    "name": "Bloodcap"
   },
   "Buck_Capsule_[A]": {
     "name": "Buck Capsule [A]",
@@ -134,6 +158,9 @@
   "Cartilage_Bit": {
     "name": "Cartilage Bit"
   },
+  "Chrysodendra": {
+    "name": "Chrysodendra"
+  },
   "Citrome": {
     "name": "Citrome"
   },
@@ -148,6 +175,9 @@
   },
   "Clean_Water": {
     "name": "Clean Water"
+  },
+  "Cosmagaric": {
+    "name": "Cosmagaric"
   },
   "Cryston_Bottle": {
     "name": "Cryston Bottle"
@@ -187,6 +217,15 @@
   },
   "Dense_Origocrust_Powder": {
     "name": "Dense Origocrust Powder"
+  },
+  "Elementary_Cognitive_Carrier": {
+    "name": "Elementary Cognitive Carrier"
+  },
+  "Elementary_Combat_Record": {
+    "name": "Elementary Combat Record"
+  },
+  "False_Aggela": {
+    "name": "False Aggela"
   },
   "Ferrium": {
     "name": "Ferrium"
@@ -257,8 +296,14 @@
       }
     ]
   },
+  "Igneosite": {
+    "name": "Igneosite"
+  },
   "Industrial_Explosive": {
     "name": "Industrial Explosive"
+  },
+  "Intermediate_Combat_Record": {
+    "name": "Intermediate Combat Record"
   },
   "Jincao": {
     "name": "Jincao"
@@ -283,6 +328,12 @@
   },
   "Jincao_Solution": {
     "name": "Jincao Solution"
+  },
+  "Kalkodendra": {
+    "name": "Kalkodendra"
+  },
+  "Kalkonyx": {
+    "name": "Kalkonyx"
   },
   "LC_Valley_Battery": {
     "name": "LC Valley Battery",
@@ -326,6 +377,12 @@
   "Packed_Origocrust": {
     "name": "Packed Origocrust"
   },
+  "Pink_Bolete": {
+    "name": "Pink Bolete"
+  },
+  "Red_Bolete": {
+    "name": "Red Bolete"
+  },
   "Redjade_Ginseng": {
     "name": "Redjade Ginseng"
   },
@@ -337,6 +394,9 @@
   },
   "Reed_Rye_Seed": {
     "name": "Reed Rye Seed"
+  },
+  "Ruby_Bolete": {
+    "name": "Ruby Bolete"
   },
   "SC_Valley_Battery": {
     "name": "SC Valley Battery",
@@ -404,8 +464,17 @@
   "Umbraline": {
     "name": "Umbraline"
   },
+  "Umbronyx": {
+    "name": "Umbronyx"
+  },
+  "Vitrodendra": {
+    "name": "Vitrodendra"
+  },
   "Wood": {
     "name": "Wood"
+  },
+  "Wulingstone": {
+    "name": "Wulingstone"
   },
   "Xiranite": {
     "name": "Xiranite",

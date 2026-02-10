@@ -1,0 +1,273 @@
+{
+  "arts-amp": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Arts Amp"
+  },
+  "arts-infliction": {
+    "color": "#33C2FF",
+    "name": "Arts Infliction"
+  },
+  "arts-infliction-consumed": {
+    "color": "#33C2FF",
+    "name": "Arts Infliction Consumed"
+  },
+  "arts-reaction": {
+    "color": "#33C2FF",
+    "name": "Arts Reaction"
+  },
+  "arts-reaction-consumed": {
+    "color": "#33C2FF",
+    "name": "Arts Reaction Consumed"
+  },
+  "arts-susceptibility": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Arts Susceptibility"
+  },
+  "auxiliary-crystal": {
+    "color": "#33C2FF",
+    "name": "Auxiliary Crystal"
+  },
+  "breach": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Breach"
+  },
+  "combustion": {
+    "color": "#FF853F",
+    "icon": true,
+    "name": "Combustion"
+  },
+  "combustion-consumed": {
+    "color": "#FF853F",
+    "name": "Combustion Consumed"
+  },
+  "corrosion": {
+    "color": "#9CD54A",
+    "icon": true,
+    "name": "Corrosion"
+  },
+  "corrosion-consumed": {
+    "color": "#9CD54A",
+    "name": "Corrosion Consumed"
+  },
+  "crush": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Crush"
+  },
+  "cryo-amp": {
+    "color": "#00C0CB",
+    "icon": true,
+    "name": "Cryo Amp"
+  },
+  "cryo-dmg": {
+    "color": "#00C0CB",
+    "name": "Cryo DMG"
+  },
+  "cryo-infliction": {
+    "color": "#00C0CB",
+    "icon": true,
+    "name": "Cryo Infliction"
+  },
+  "cryo-infliction-consumed": {
+    "color": "#00C0CB",
+    "name": "Cryo Infliction Consumed"
+  },
+  "electric-amp": {
+    "color": "#FDC038",
+    "icon": true,
+    "name": "Electric Amp"
+  },
+  "electric-dmg": {
+    "color": "#FDC038",
+    "name": "Electric DMG"
+  },
+  "electric-infliction": {
+    "color": "#FDC038",
+    "icon": true,
+    "name": "Electric Infliction"
+  },
+  "electric-infliction-consumed": {
+    "color": "#FDC038",
+    "name": "Electric Infliction Consumed"
+  },
+  "electric-susceptibility": {
+    "color": "#FDC038",
+    "icon": true,
+    "name": "Electric Susceptibility"
+  },
+  "electrification": {
+    "color": "#FDC038",
+    "icon": true,
+    "name": "Electrification"
+  },
+  "electrification-consumed": {
+    "color": "#FDC038",
+    "name": "Electrification Consumed"
+  },
+  "final-strike": {
+    "name": "Final Strike"
+  },
+  "focus": {
+    "color": "#33C2FF",
+    "name": "Focus"
+  },
+  "heat-amp": {
+    "color": "#FF853F",
+    "icon": true,
+    "name": "Heat Amp"
+  },
+  "heat-dmg": {
+    "color": "#FF853F",
+    "name": "Heat DMG"
+  },
+  "heat-infliction": {
+    "color": "#FF853F",
+    "icon": true,
+    "name": "Heat Infliction"
+  },
+  "heat-infliction-consumed": {
+    "color": "#FF853F",
+    "name": "Heat Infliction Consumed"
+  },
+  "heat-susceptibility": {
+    "color": "#FF853F",
+    "icon": true,
+    "name": "Heat Susceptibility"
+  },
+  "hp-treatment": {
+    "color": "#ABD040",
+    "name": "HP Treatment"
+  },
+  "hypothermic-perfusion": {
+    "color": "#33C2FF",
+    "name": "Hypothermic Perfusion"
+  },
+  "improvised-explosive": {
+    "color": "#33C2FF",
+    "name": "Improvised Explosive"
+  },
+  "knock-down": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Knock Down"
+  },
+  "lift": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Lift"
+  },
+  "link": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Link"
+  },
+  "melting-flame": {
+    "color": "#33C2FF",
+    "name": "Melting Flame"
+  },
+  "nature-amp": {
+    "color": "#9CD54A",
+    "icon": true,
+    "name": "Nature Amp"
+  },
+  "nature-dmg": {
+    "color": "#9CD54A",
+    "name": "Nature DMG"
+  },
+  "nature-infliction": {
+    "color": "#9CD54A",
+    "icon": true,
+    "name": "Nature Infliction"
+  },
+  "nature-infliction-consumed": {
+    "color": "#9CD54A",
+    "name": "Nature Infliction Consumed"
+  },
+  "originium-crystals": {
+    "color": "#33C2FF",
+    "name": "Originium Crystals"
+  },
+  "originium-crystals-consumed": {
+    "color": "#33C2FF",
+    "name": "Originium Crystals Consumed"
+  },
+  "phyiscal-susceptibility": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Physical Susceptibility"
+  },
+  "physical-dmg": {
+    "color": "#DFBB92",
+    "name": "Physical DMG"
+  },
+  "physical-status": {
+    "color": "#DFBB92",
+    "name": "Physical Status"
+  },
+  "protection": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Protection"
+  },
+  "shatter": {
+    "color": "#00C0CB",
+    "icon": true,
+    "name": "Shatter"
+  },
+  "shield": {
+    "color": "#33C2FF",
+    "name": "Shield"
+  },
+  "slow": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Slow"
+  },
+  "solidification": {
+    "alts": [
+      "Solidified"
+    ],
+    "color": "#00C0CB",
+    "icon": true,
+    "name": "Solidification"
+  },
+  "solidification-consumsed": {
+    "color": "#00C0CB",
+    "name": "Solidification Consumed"
+  },
+  "steel-oath": {
+    "color": "#33C2FF",
+    "name": "Steel Oath"
+  },
+  "thunderlance": {
+    "alts": [
+      "Thunderlances"
+    ],
+    "color": "#33C2FF",
+    "name": "Thunderlance"
+  },
+  "thunderlance-ex": {
+    "alts": [
+      "Thunderlances EX"
+    ],
+    "color": "#33C2FF",
+    "name": "Thunderlance EX"
+  },
+  "vulnerability": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Vulnerability"
+  },
+  "vulnerability-consumed": {
+    "color": "#DFBB92",
+    "name": "Vulnerability Consumed"
+  },
+  "weaken": {
+    "color": "#33C2FF",
+    "icon": true,
+    "name": "Weaken"
+  }
+}
