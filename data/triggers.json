@@ -338,7 +338,7 @@
     "color": "#00C0CB",
     "icon": true,
     "intriggers": [
-      "vulnerable",
+      "vulnerability",
       "physical-status"
     ],
     "name": "Shatter"
