@@ -727,7 +727,7 @@
       ],
       "name": "Cryoblasting Pistolier",
       "outTriggers": [
-        "solidification-consumsed"
+        "solidification-consumed"
       ]
     }
   }
