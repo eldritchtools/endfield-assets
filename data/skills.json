@@ -146,7 +146,7 @@
       ],
       "name": "Dolly Rush",
       "outTriggers": [
-        "phyiscal-susceptibility",
+        "physical-susceptibility",
         "arts-susceptibility",
         "corrosion-consumed"
       ]
@@ -346,7 +346,7 @@
       "name": "Distortion",
       "outTriggers": [
         "lift",
-        "phyiscal-susceptibility"
+        "physical-susceptibility"
       ]
     },
     "skill": {
@@ -359,7 +359,7 @@
     "ultimate": {
       "description": "SKILL DESCRIPTION: Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing {Physical DMG} to all enemies in a circular area around self. To enemies with {Physical Susceptibility}, the skill forcibly applies {Lift} to them.",
       "inTriggers": [
-        "phyiscal-susceptibility"
+        "physical-susceptibility"
       ],
       "name": "Tremolo",
       "outTriggers": [
@@ -514,7 +514,7 @@
     "combo": {
       "description": "COMBO TRIGGER: When the controlled operator performs a {Final Strike} on an enemy with {Physical Susceptibility} or {Breach}.\nSKILL DESCRIPTION: Unleashes an aspect that performs a spear thrust to deal {Physical DMG} and grants {Link}.",
       "inTriggers": [
-        "phyiscal-susceptibility",
+        "physical-susceptibility",
         "breach"
       ],
       "name": " Aspect of Wrath",
@@ -527,7 +527,7 @@
       "name": "Turbid Avatar",
       "outTriggers": [
         "knock-down",
-        "phyiscal-susceptibility"
+        "physical-susceptibility"
       ]
     },
     "ultimate": {

@@ -307,7 +307,7 @@
     "color": "#33C2FF",
     "name": "Originium Crystals Consumed"
   },
-  "phyiscal-susceptibility": {
+  "physical-susceptibility": {
     "color": "#DFBB92",
     "icon": true,
     "name": "Physical Susceptibility"
