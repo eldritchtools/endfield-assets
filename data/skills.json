@@ -544,7 +544,7 @@
   "perlica": {
     "attack": {
       "description": "BASIC ATTACK: An attack with up to 4 sequences that deals {Electric DMG}. As the controlled operator, {Final Strike} also deals 15 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Electric DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive {Electric DMG} and recovers some SP.",
-      "name": "Protocol Î±: Breach"
+      "name": "Protocol α: Breach"
     },
     "combo": {
       "description": "COMBO TRIGGER: When controlled operator performs a {Final Strike} on any enemy.\nSKILL DESCRIPTION: Unleashes stored electro-magnetic energy to bombard the target, dealing {Electric DMG} and forcibly inflicting temporary {Electrification}.",
@@ -558,14 +558,14 @@
     },
     "skill": {
       "description": "SKILL DESCRIPTION: Unleashes a bolt of electro-magnetic energy that deals {Electric DMG} and {Electric Infliction} to enemies in a small area.",
-      "name": "Protocol Ï‰: Strike",
+      "name": "Protocol ω: Strike",
       "outTriggers": [
         "electric-infliction"
       ]
     },
     "ultimate": {
       "description": "SKILL DESCRIPTION: Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive {Electric DMG}.",
-      "name": "Protocol Îµ: 70.41K"
+      "name": "Protocol ε: 70.41K"
     }
   },
   "pogranichnik": {

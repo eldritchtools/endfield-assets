@@ -305,12 +305,11 @@
   },
   "originium-crystals-consumed": {
     "color": "#33C2FF",
+    "intriggers": [
+      "physical-status",
+      "vulnerability"
+    ],
     "name": "Originium Crystals Consumed"
-  },
-  "physical-susceptibility": {
-    "color": "#DFBB92",
-    "icon": true,
-    "name": "Physical Susceptibility"
   },
   "physical-dmg": {
     "color": "#DFBB92",
@@ -320,7 +319,8 @@
     "color": "#DFBB92",
     "name": "Physical Status",
     "outtriggers": [
-      "shatter"
+      "shatter",
+      "originium-crystals-consumed"
     ],
     "subtypes": [
       "crush",
@@ -328,6 +328,11 @@
       "knock-down",
       "breach"
     ]
+  },
+  "physical-susceptibility": {
+    "color": "#DFBB92",
+    "icon": true,
+    "name": "Physical Susceptibility"
   },
   "protection": {
     "color": "#33C2FF",
@@ -402,7 +407,8 @@
     ],
     "name": "Vulnerability",
     "outtriggers": [
-      "shatter"
+      "shatter",
+      "originium-crystals-consumed"
     ],
     "parents": [
       "physical-status"
