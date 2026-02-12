@@ -31,10 +31,6 @@
     "combo": {
       "description": "COMBO TRIGGER: When the Arts Reaction or Originium Crystals of a nearby target is consumed.\nSKILL DESCRIPTION: Opens an angling hole beneath the enemy that deals {Physical DMG} and recovers some SP. The skill has a chance to hook a Rare Fin that greatly increases the DMG dealt and recovers some more SP.",
       "inTriggers": [
-        "combustion-consumed",
-        "solidification-consumsed",
-        "corrosion-consumed",
-        "electrification-consumed",
         "originium-crystals-consumed",
         "arts-reaction-consumed"
       ],
@@ -69,30 +65,12 @@
       "inTriggers": [
         "focus",
         "physical-status",
-        "vulnerability",
-        "lift",
-        "knock-down",
-        "crush",
-        "breach",
-        "arts-infliction",
-        "heat-infliction",
-        "cryo-infliction",
-        "nature-infliction",
-        "electric-infliction"
+        "arts-infliction"
       ],
       "name": "EMP Test Site",
       "outTriggers": [
         "physical-status",
-        "vulnerability",
-        "lift",
-        "knock-down",
-        "arts-infliction",
-        "heat-infliction",
-        "cryo-infliction",
-        "nature-infliction",
-        "electric-infliction",
-        "crush",
-        "breach"
+        "arts-infliction"
       ]
     },
     "skill": {
@@ -164,8 +142,7 @@
     "skill": {
       "description": "SKILL DESCRIPTION: Hops on Mr. Dolly and rams the target to deal {Nature DMG}. If the target has {Corrosion}, then consume the {Corrosion} and apply {Physical Susceptibility} and {Arts Susceptibility} to the target.",
       "inTriggers": [
-        "corrosion",
-        "nature-infliction"
+        "corrosion"
       ],
       "name": "Dolly Rush",
       "outTriggers": [
@@ -236,7 +213,6 @@
       "name": "Textbook Assault",
       "outTriggers": [
         "weaken",
-        "vulnerability",
         "knock-down"
       ]
     }
@@ -253,7 +229,6 @@
       ],
       "name": " Soar to the Stars",
       "outTriggers": [
-        "vulnerability",
         "lift"
       ]
     },
@@ -261,7 +236,6 @@
       "description": "SKILL DESCRIPTION: Performs an uppercut slash at the target enemy, dealing {Physical DMG} and {Lift}.",
       "name": "Ascending Strike",
       "outTriggers": [
-        "vulnerability",
         "lift"
       ]
     },
@@ -282,7 +256,6 @@
       ],
       "name": "MORE SPICE!",
       "outTriggers": [
-        "vulnerability",
         "crush"
       ]
     },
@@ -290,7 +263,6 @@
       "description": "SKILL DESCRIPTION: Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals {Physical DMG} and {Lift} to the enemy.",
       "name": "FLIP DA WOK!",
       "outTriggers": [
-        "vulnerability",
         "lift"
       ]
     },
@@ -298,7 +270,6 @@
       "description": "SKILL DESCRIPTION: Da Pan slams the chopping board to forcibly {Lift} all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals {Physical DMG}. The final step is to bash every enemy to the ground to forcibly {Knock Down} and deal massive {Physical DMG} to them.",
       "name": "CHOP 'N DUNK!",
       "outTriggers": [
-        "vulnerability",
         "lift",
         "knock-down"
       ]
@@ -313,7 +284,6 @@
       "description": "COMBO TRIGGER: When the controlled operator is attacked.\nSKILL DESCRIPTION: Leaps at the target enemy and unleashes a heavy slam that deals {Physical DMG} and {Knock Down} while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment.",
       "name": "Frontline Support",
       "outTriggers": [
-        "vulnerability",
         "knock-down"
       ]
     },
@@ -321,7 +291,6 @@
       "description": "SKILL DESCRIPTION: A leap followed by a heavy slam that deals {Heat DMG}, {Knock Down}, and Stagger to all enemies in a fan-shaped area. If Ember takes DMG from enemies during casting, the slam deals more Stagger when it hits.",
       "name": " Forward March",
       "outTriggers": [
-        "vulnerability",
         "knock-down"
       ]
     },
@@ -338,12 +307,8 @@
     "combo": {
       "description": "COMBO TRIGGER: When another operator in the team deals DMG with combo skills.\nSKILL DESCRIPTION: Rushes to the enemy's side to deal {Physical DMG} and attach {Originium Crystals} that temporarily seal them. Applying {Physical Status} or {Vulnerability} to the sealed enemy shatters the {Originium Crystals} and deals additional {Physical DMG}.",
       "inTriggers": [
-        "vulnerability",
-        "crush",
-        "lift",
-        "knock-down",
-        "breach",
-        "physical-status"
+        "physical-status",
+        "vulnerability"
       ],
       "name": "Sealing Sequence",
       "outTriggers": [
@@ -354,9 +319,7 @@
       "description": "SKILL DESCRIPTION: A forceful burst of Originium Crystals that attacks enemies within the area of effect. Deals {Physical DMG} and applies {Crush}.",
       "name": "Constructive Sequence",
       "outTriggers": [
-        "vulnerability",
-        "crush",
-        "originium-crystals-consumed"
+        "crush"
       ]
     },
     "ultimate": {
@@ -378,12 +341,10 @@
     "combo": {
       "description": "COMBO TRIGGER: When an enemy suffers {Solidification}.\nSKILL DESCRIPTION: Quickly moves to the enemy's side to deal {Physical DMG} and forcibly {Lift} enemies in a small area. If the skill hits a target with {Solidification}, the skill deals additional DMG and applies {Physical Susceptibility}.",
       "inTriggers": [
-        "solidification",
-        "cryo-infliction"
+        "solidification"
       ],
       "name": "Distortion",
       "outTriggers": [
-        "vulnerability",
         "lift",
         "phyiscal-susceptibility"
       ]
@@ -402,7 +363,6 @@
       ],
       "name": "Tremolo",
       "outTriggers": [
-        "vulnerability",
         "lift"
       ]
     }
@@ -455,15 +415,10 @@
     "combo": {
       "description": "COMBO TRIGGER: When an {Arts Reaction} is applied to an enemy.\nSKILL DESCRIPTION: A quick casting of the Arts that generates a gravity pull, which then deals {Nature DMG} and forcibly Lifts the target and nearby enemies.",
       "inTriggers": [
-        "arts-reaction",
-        "combustion",
-        "corrosion",
-        "solidification",
-        "electrification"
+        "arts-reaction"
       ],
       "name": " Arcane Staff: Matrix Displacement",
       "outTriggers": [
-        "vulnerability",
         "lift"
       ]
     },
@@ -497,9 +452,7 @@
       "description": "COMBO TRIGGER: When an enemy suffers {Combustion} or {Corrosion}.\nSKILL DESCRIPTION: Fire erupts beneath the feet of any enemy with {Combustion} or {Corrosion}, dealing {Heat DMG} to them. If the skill hits the enemy, Laevatain gains 1 stack of {Melting Flame} and further gains Ultimate Energy per enemy hit.",
       "inTriggers": [
         "combustion",
-        "corrosion",
-        "heat-infliction",
-        "nature-infliction"
+        "corrosion"
       ],
       "name": "Seethe",
       "outTriggers": [
@@ -570,10 +523,9 @@
       ]
     },
     "skill": {
-      "description": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of {Physical DMG}, then slams the ground to deal {Physical DMG} and {Knock Down} to all enemies in the area of effect. If the enemy struck by the last hit of this skill has no {Vulnerability} stacks, apply {Physical Susceptibility} to the said enemy instead.",
+      "description": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of {Physical DMG}, then slams the ground to deal {Physical DMG} and {Knock Down} to all enemies in the area of effect. If the enemy struck by the last hit of this skill has no Vulnerability stacks, apply {Physical Susceptibility} to the said enemy instead.",
       "name": "Turbid Avatar",
       "outTriggers": [
-        "vulnerability",
         "knock-down",
         "phyiscal-susceptibility"
       ]
@@ -585,7 +537,6 @@
       ],
       "name": "Heart of the Unmoving",
       "outTriggers": [
-        "vulnerability",
         "knock-down"
       ]
     }
@@ -623,11 +574,10 @@
       "name": "All-Out Offensive"
     },
     "combo": {
-      "description": "COMBO TRIGGER: When {Crush} or {Breach} consumes the enemy's {Vulnerability} stack(s).\nSKILL DESCRIPTION: Performs a number of slash sequences (up to 3) based on the max number of {Vulnerability} stacks consumed, dealing {Physical DMG} and recovering some SP. Each slash deals more DMG and gives better SP recovery. Consuming 4 stacks of {Vulnerability} enhances the 3rd slash sequence.",
+      "description": "COMBO TRIGGER: When {Crush} or {Breach} consumes the enemy's Vulnerability stack(s).\nSKILL DESCRIPTION: Performs a number of slash sequences (up to 3) based on the max number of Vulnerability stacks consumed, dealing {Physical DMG} and recovering some SP. Each slash deals more DMG and gives better SP recovery. Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.",
       "inTriggers": [
         "crush",
-        "breach",
-        "vulnerability"
+        "breach"
       ],
       "name": "Full Moon Slash"
     },
@@ -638,19 +588,13 @@
       ],
       "name": "The Pulverizing Front",
       "outTriggers": [
-        "vulnerability",
         "breach"
       ]
     },
     "ultimate": {
       "description": "SKILL DESCRIPTION: Summons 4 Shieldguards to advance and push all enemies along the way towards the target, dealing {Physical DMG} while generating 5 points of Steel Oath. After an enemy suffers a {Physical Status} or takes DMG from Pogranichnik's combo skill, Pogranichnik consumes 1 point of Steel Oath and summons 1 Shieldguard to harass the said enemy, dealing {Physical DMG} and recovering some SP. When the last Steel Oath point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive {Physical DMG} to the target while recovering plenty of SP.",
       "inTriggers": [
-        "physical-status",
-        "vulnerability",
-        "lift",
-        "knock-down",
-        "breach",
-        "crush"
+        "physical-status"
       ],
       "name": "Shieldguard Banner, Forward"
     }
@@ -688,11 +632,7 @@
     "combo": {
       "description": "COMBO TRIGGER: When an {Arts Infliction} is applied to an enemy.\nSKILL DESCRIPTION: Throws a frag grenade at the target's location that explodes upon hitting the ground, dealing {Heat DMG} and {Heat Infliction} to nearby enemies.",
       "inTriggers": [
-        "arts-infliction",
-        "heat-infliction",
-        "cryo-infliction",
-        "nature-infliction",
-        "electric-infliction"
+        "arts-infliction"
       ],
       "name": "Frag Grenade·β",
       "outTriggers": [
@@ -703,9 +643,7 @@
       "description": "SKILL DESCRIPTION: Fires multiple shots at the target that deal some {Heat DMG}. The final shot also applies {Heat Infliction}. If the target has active {Combustion} or {Electrification}, do not apply {Heat Infliction} but instead consume the Arts Reaction to fire an additional shot that deals massive {Heat DMG}.",
       "inTriggers": [
         "combustion",
-        "electrification",
-        "heat-infliction",
-        "electric-infliction"
+        "electrification"
       ],
       "name": "Thermite Tracers",
       "outTriggers": [
@@ -762,8 +700,7 @@
     "combo": {
       "description": "COMBO TRIGGER: When the controlled operator performs a {Final Strike} on an enemy with {Solidification}.\nSKILL DESCRIPTION: Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals {Cryo DMG} to them, and pulls them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply {Solidification} and deal {Cryo DMG} to nearby enemies. After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.",
       "inTriggers": [
-        "solidification",
-        "cryo-infliction"
+        "solidification"
       ],
       "name": "Flashfreezer υ37",
       "outTriggers": [

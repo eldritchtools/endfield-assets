@@ -6,19 +6,43 @@
   },
   "arts-infliction": {
     "color": "#33C2FF",
-    "name": "Arts Infliction"
+    "name": "Arts Infliction",
+    "subtypes": [
+      "heat-infliction",
+      "cryo-infliction",
+      "nature-infliction",
+      "electric-infliction"
+    ]
   },
   "arts-infliction-consumed": {
     "color": "#33C2FF",
-    "name": "Arts Infliction Consumed"
+    "name": "Arts Infliction Consumed",
+    "subtypes": [
+      "heat-infliction-consumed",
+      "cryo-infliction-consumed",
+      "nature-infliction-consumed",
+      "electric-infliction-consumed"
+    ]
   },
   "arts-reaction": {
     "color": "#33C2FF",
-    "name": "Arts Reaction"
+    "name": "Arts Reaction",
+    "subtypes": [
+      "combustion",
+      "solidification",
+      "corrosion",
+      "electrification"
+    ]
   },
   "arts-reaction-consumed": {
     "color": "#33C2FF",
-    "name": "Arts Reaction Consumed"
+    "name": "Arts Reaction Consumed",
+    "subtypes": [
+      "combustion-consumed",
+      "solidification-consumed",
+      "corrosion-consumed",
+      "electrification-consumed"
+    ]
   },
   "arts-susceptibility": {
     "color": "#33C2FF",
@@ -32,30 +56,62 @@
   "breach": {
     "color": "#DFBB92",
     "icon": true,
-    "name": "Breach"
+    "name": "Breach",
+    "outtriggers": [
+      "vulnerability",
+      "vulnerability-consumed"
+    ],
+    "parents": [
+      "physical-status"
+    ]
   },
   "combustion": {
     "color": "#FF853F",
     "icon": true,
-    "name": "Combustion"
+    "intriggers": [
+      "heat-infliction"
+    ],
+    "name": "Combustion",
+    "parents": [
+      "arts-reaction"
+    ]
   },
   "combustion-consumed": {
     "color": "#FF853F",
-    "name": "Combustion Consumed"
+    "name": "Combustion Consumed",
+    "parents": [
+      "arts-reaction-consumed"
+    ]
   },
   "corrosion": {
     "color": "#9CD54A",
     "icon": true,
-    "name": "Corrosion"
+    "intriggers": [
+      "nature-infliction"
+    ],
+    "name": "Corrosion",
+    "parents": [
+      "arts-reaction"
+    ]
   },
   "corrosion-consumed": {
     "color": "#9CD54A",
-    "name": "Corrosion Consumed"
+    "name": "Corrosion Consumed",
+    "parents": [
+      "arts-reaction-consumed"
+    ]
   },
   "crush": {
     "color": "#DFBB92",
     "icon": true,
-    "name": "Crush"
+    "name": "Crush",
+    "outtriggers": [
+      "vulnerability",
+      "vulnerability-consumed"
+    ],
+    "parents": [
+      "physical-status"
+    ]
   },
   "cryo-amp": {
     "color": "#00C0CB",
@@ -69,11 +125,20 @@
   "cryo-infliction": {
     "color": "#00C0CB",
     "icon": true,
-    "name": "Cryo Infliction"
+    "name": "Cryo Infliction",
+    "outtriggers": [
+      "solidification"
+    ],
+    "parents": [
+      "arts-infliction"
+    ]
   },
   "cryo-infliction-consumed": {
     "color": "#00C0CB",
-    "name": "Cryo Infliction Consumed"
+    "name": "Cryo Infliction Consumed",
+    "parents": [
+      "arts-infliction-consumed"
+    ]
   },
   "electric-amp": {
     "color": "#FDC038",
@@ -87,11 +152,20 @@
   "electric-infliction": {
     "color": "#FDC038",
     "icon": true,
-    "name": "Electric Infliction"
+    "name": "Electric Infliction",
+    "outtriggers": [
+      "electrification"
+    ],
+    "parents": [
+      "arts-infliction"
+    ]
   },
   "electric-infliction-consumed": {
     "color": "#FDC038",
-    "name": "Electric Infliction Consumed"
+    "name": "Electric Infliction Consumed",
+    "parents": [
+      "arts-infliction-consumed"
+    ]
   },
   "electric-susceptibility": {
     "color": "#FDC038",
@@ -101,11 +175,20 @@
   "electrification": {
     "color": "#FDC038",
     "icon": true,
-    "name": "Electrification"
+    "intriggers": [
+      "electric-infliction"
+    ],
+    "name": "Electrification",
+    "parents": [
+      "arts-reaction"
+    ]
   },
   "electrification-consumed": {
     "color": "#FDC038",
-    "name": "Electrification Consumed"
+    "name": "Electrification Consumed",
+    "parents": [
+      "arts-reaction-consumed"
+    ]
   },
   "final-strike": {
     "name": "Final Strike"
@@ -126,11 +209,20 @@
   "heat-infliction": {
     "color": "#FF853F",
     "icon": true,
-    "name": "Heat Infliction"
+    "name": "Heat Infliction",
+    "outtriggers": [
+      "combustion"
+    ],
+    "parents": [
+      "arts-infliction"
+    ]
   },
   "heat-infliction-consumed": {
     "color": "#FF853F",
-    "name": "Heat Infliction Consumed"
+    "name": "Heat Infliction Consumed",
+    "parents": [
+      "arts-infliction-consumed"
+    ]
   },
   "heat-susceptibility": {
     "color": "#FF853F",
@@ -152,12 +244,24 @@
   "knock-down": {
     "color": "#DFBB92",
     "icon": true,
-    "name": "Knock Down"
+    "name": "Knock Down",
+    "outtriggers": [
+      "vulnerability"
+    ],
+    "parents": [
+      "physical-status"
+    ]
   },
   "lift": {
     "color": "#DFBB92",
     "icon": true,
-    "name": "Lift"
+    "name": "Lift",
+    "outtriggers": [
+      "vulnerability"
+    ],
+    "parents": [
+      "physical-status"
+    ]
   },
   "link": {
     "color": "#33C2FF",
@@ -180,11 +284,20 @@
   "nature-infliction": {
     "color": "#9CD54A",
     "icon": true,
-    "name": "Nature Infliction"
+    "name": "Nature Infliction",
+    "outtriggers": [
+      "corrosion"
+    ],
+    "parents": [
+      "arts-infliction"
+    ]
   },
   "nature-infliction-consumed": {
     "color": "#9CD54A",
-    "name": "Nature Infliction Consumed"
+    "name": "Nature Infliction Consumed",
+    "parents": [
+      "arts-infliction-consumed"
+    ]
   },
   "originium-crystals": {
     "color": "#33C2FF",
@@ -205,7 +318,16 @@
   },
   "physical-status": {
     "color": "#DFBB92",
-    "name": "Physical Status"
+    "name": "Physical Status",
+    "outtriggers": [
+      "shatter"
+    ],
+    "subtypes": [
+      "crush",
+      "lift",
+      "knock-down",
+      "breach"
+    ]
   },
   "protection": {
     "color": "#33C2FF",
@@ -215,6 +337,10 @@
   "shatter": {
     "color": "#00C0CB",
     "icon": true,
+    "intriggers": [
+      "vulnerable",
+      "physical-status"
+    ],
     "name": "Shatter"
   },
   "shield": {
@@ -232,11 +358,20 @@
     ],
     "color": "#00C0CB",
     "icon": true,
-    "name": "Solidification"
+    "intriggers": [
+      "cryo-infliction"
+    ],
+    "name": "Solidification",
+    "parents": [
+      "arts-reaction"
+    ]
   },
   "solidification-consumsed": {
     "color": "#00C0CB",
-    "name": "Solidification Consumed"
+    "name": "Solidification Consumed",
+    "parents": [
+      "arts-reaction-consumed"
+    ]
   },
   "steel-oath": {
     "color": "#33C2FF",
@@ -259,10 +394,26 @@
   "vulnerability": {
     "color": "#DFBB92",
     "icon": true,
-    "name": "Vulnerability"
+    "intriggers": [
+      "crush",
+      "lift",
+      "knock-down",
+      "breach"
+    ],
+    "name": "Vulnerability",
+    "outtriggers": [
+      "shatter"
+    ],
+    "parents": [
+      "physical-status"
+    ]
   },
   "vulnerability-consumed": {
     "color": "#DFBB92",
+    "intriggers": [
+      "crush",
+      "breach"
+    ],
     "name": "Vulnerability Consumed"
   },
   "weaken": {
