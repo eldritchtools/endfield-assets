@@ -366,7 +366,7 @@
       "arts-reaction"
     ]
   },
-  "solidification-consumsed": {
+  "solidification-consumed": {
     "color": "#00C0CB",
     "name": "Solidification Consumed",
     "parents": [
