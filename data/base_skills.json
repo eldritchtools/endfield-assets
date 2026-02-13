@@ -438,8 +438,8 @@
         "name": "Fame of the Royal Courts",
         "room": "RR",
         "texts": [
-          "Assign to Reception Room to grant operators a small Clue 7 Rate-UP: SeÃ…Â¡'qa (activates upon assignment; effects of the same type cannot stack)",
-          "Assign to Reception Room to grant operators Clue 7 Rate-UP: SeÃ…Â¡'qa (activates upon assignment; effects of the same type cannot stack)"
+          "Assign to Reception Room to grant operators a small Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)",
+          "Assign to Reception Room to grant operators Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)"
         ],
         "type": "clue rate up",
         "values": [
