@@ -1,0 +1,152 @@
+{
+  "valley4-origin-lodespring": {
+    "name": "Severe Energy Alluvium: Origin Lodespring",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "HP Boost",
+      "Physical DMG Boost",
+      "Heat DMG Boost",
+      "Cryo DMG Boost",
+      "Nature DMG Boost",
+      "Critical Rate Boost",
+      "Arts Intensity Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Assault",
+      "Suppression",
+      "Combative",
+      "Brutality",
+      "Infliction",
+      "Detonate",
+      "Twilight",
+      "Efficacy"
+    ]
+  },
+  "valley4-originium-science-park": {
+    "name": "Severe Energy Alluvium: Originium Science Park",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "Physical DMG Boost",
+      "Electric DMG Boost",
+      "Cryo DMG Boost",
+      "Nature DMG Boost",
+      "Critical Rate Boost",
+      "Ultimate Gain Boost",
+      "Arts DMG Boost"
+    ],
+    "skill": [
+      "Suppression",
+      "Pursuit",
+      "Inspiring",
+      "Combative",
+      "Infliction",
+      "Medicant",
+      "Fracture",
+      "Efficacy"
+    ]
+  },
+  "valley4-power-plateau": {
+    "name": "Severe Energy Alluvium: Power Plateau",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "HP Boost",
+      "Physical DMG Boost",
+      "Heat DMG Boost",
+      "Nature DMG Boost",
+      "Critical Rate Boost",
+      "Arts Intensity Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Pursuit",
+      "Crusher",
+      "Inspiring",
+      "Brutality",
+      "Infliction",
+      "Medicant",
+      "Fracture",
+      "Flow"
+    ]
+  },
+  "valley4-the-hub": {
+    "name": "Severe Energy Alluvium: The Hub",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "Heat DMG Boost",
+      "Electric DMG Boost",
+      "Cryo DMG Boost",
+      "Nature DMG Boost",
+      "Arts Intensity Boost",
+      "Ultimate Gain Boost",
+      "Arts DMG Boost"
+    ],
+    "skill": [
+      "Assault",
+      "Suppression",
+      "Pursuit",
+      "Crusher",
+      "Combative",
+      "Detonate",
+      "Flow",
+      "Efficacy"
+    ]
+  },
+  "wuling-wuling-city": {
+    "name": "Severe Energy Alluvium: Wuling City",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "HP Boost",
+      "Electric DMG Boost",
+      "Cryo DMG Boost",
+      "Critical Rate Boost",
+      "Ultimate Gain Boost",
+      "Arts DMG Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Assault",
+      "Crusher",
+      "Brutality",
+      "Medicant",
+      "Fracture",
+      "Detonate",
+      "Twilight",
+      "Flow"
+    ]
+  }
+}

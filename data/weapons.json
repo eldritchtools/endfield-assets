@@ -1,0 +1,555 @@
+{
+  "Aggeloslayer": {
+    "name": "Aggeloslayer",
+    "rank": 4,
+    "stats": [
+      "Will Boost",
+      "Arts DMG Boost",
+      "Suppression"
+    ]
+  },
+  "Ancient_Canal": {
+    "name": "Ancient Canal",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "Arts Intensity Boost",
+      "Brutality"
+    ]
+  },
+  "Artzy_Tyrannical": {
+    "name": "Artzy Tyrannical",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Critical Rate Boost",
+      "Fracture"
+    ]
+  },
+  "Aspirant": {
+    "name": "Aspirant",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Twilight"
+    ]
+  },
+  "Chimeric_Justice": {
+    "name": "Chimeric Justice",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "Ultimate Gain Boost",
+      "Brutality"
+    ]
+  },
+  "Chivalric_Virtues": {
+    "name": "Chivalric Virtues",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "HP Boost",
+      "Medicant"
+    ]
+  },
+  "Clannibal": {
+    "name": "Clannibal",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Arts DMG Boost",
+      "Infliction"
+    ]
+  },
+  "Cohesive_Traction": {
+    "name": "Cohesive Traction",
+    "rank": 5,
+    "stats": [
+      "Will Boost",
+      "Electric DMG Boost",
+      "Suppression"
+    ]
+  },
+  "Contingent_Measure": {
+    "name": "Contingent Measure",
+    "rank": 4,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Suppression"
+    ]
+  },
+  "Darhoff_7": {
+    "name": "Darhoff 7",
+    "rank": 3,
+    "stats": [
+      "Main Attribute Boost",
+      "Assault"
+    ]
+  },
+  "Delivery_Guaranteed": {
+    "name": "Delivery Guaranteed",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Ultimate Gain Boost",
+      "Pursuit"
+    ]
+  },
+  "Detonation_Unit": {
+    "name": "Detonation Unit",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Arts Intensity Boost",
+      "Detonate"
+    ]
+  },
+  "Dreams_of_the_Starry_Beach": {
+    "name": "Dreams of the Starry Beach",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Treatment Efficiency Boost",
+      "Infliction"
+    ]
+  },
+  "Eminent_Repute": {
+    "name": "Eminent Repute",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Physical DMG Boost",
+      "Brutality"
+    ]
+  },
+  "Exemplar": {
+    "name": "Exemplar",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Attack Boost",
+      "Suppression"
+    ]
+  },
+  "Finchaser_3.0": {
+    "name": "Finchaser 3.0",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "Cryo DMG Boost",
+      "Suppression"
+    ]
+  },
+  "Finishing_Call": {
+    "name": "Finishing Call",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "HP Boost",
+      "Medicant"
+    ]
+  },
+  "Florescent_Roc": {
+    "name": "Florescent Roc",
+    "rank": 4,
+    "stats": [
+      "Will Boost",
+      "Attack Boost",
+      "Suppression"
+    ]
+  },
+  "Forgeborn_Scathe": {
+    "name": "Forgeborn Scathe",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Attack Boost",
+      "Twilight"
+    ]
+  },
+  "Former_Finery": {
+    "name": "Former Finery",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "HP Boost",
+      "Efficacy"
+    ]
+  },
+  "Fortmaker": {
+    "name": "Fortmaker",
+    "rank": 5,
+    "stats": [
+      "Intellect Boost",
+      "Ultimate Gain Boost",
+      "Inspiring"
+    ]
+  },
+  "Freedom_to_Proselytize": {
+    "name": "Freedom to Proselytize",
+    "rank": 5,
+    "stats": [
+      "Will Boost",
+      "Treatment Efficiency Boost",
+      "Medicant"
+    ]
+  },
+  "Grand_Vision": {
+    "name": "Grand Vision",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Attack Boost",
+      "Infliction"
+    ]
+  },
+  "Howling_Guard": {
+    "name": "Howling Guard",
+    "rank": 4,
+    "stats": [
+      "Intellect Boost",
+      "Attack Boost",
+      "Suppression"
+    ]
+  },
+  "Hypernova_Auto": {
+    "name": "Hypernova Auto",
+    "rank": 4,
+    "stats": [
+      "Intellect Boost",
+      "Arts DMG Boost",
+      "Inspiring"
+    ]
+  },
+  "Industry_0.1": {
+    "name": "Industry 0.1",
+    "rank": 4,
+    "stats": [
+      "Strength Boost",
+      "Attack Boost",
+      "Suppression"
+    ]
+  },
+  "JET": {
+    "name": "JET",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Attack Boost",
+      "Suppression"
+    ]
+  },
+  "Jiminy_12": {
+    "name": "Jiminy 12",
+    "rank": 3,
+    "stats": [
+      "Main Attribute Boost",
+      "Assault"
+    ]
+  },
+  "Khravengger": {
+    "name": "Khravengger",
+    "rank": 6,
+    "stats": [
+      "Strength Boost",
+      "Attack Boost",
+      "Detonate"
+    ]
+  },
+  "Long_Road": {
+    "name": "Long Road",
+    "rank": 4,
+    "stats": [
+      "Strength Boost",
+      "Arts DMG Boost",
+      "Pursuit"
+    ]
+  },
+  "Monaihe": {
+    "name": "Monaihe",
+    "rank": 5,
+    "stats": [
+      "Will Boost",
+      "Ultimate Gain Boost",
+      "Inspiring"
+    ]
+  },
+  "Mountain_Bearer": {
+    "name": "Mountain Bearer",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Efficacy"
+    ]
+  },
+  "Navigator": {
+    "name": "Navigator",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Cryo DMG Boost",
+      "Infliction"
+    ]
+  },
+  "Never_Rest": {
+    "name": "Never Rest",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Attack Boost",
+      "Flow"
+    ]
+  },
+  "OBJ_Arts_Identifier": {
+    "name": "OBJ Arts Identifier",
+    "rank": 5,
+    "stats": [
+      "Intellect Boost",
+      "Arts Intensity Boost",
+      "Pursuit"
+    ]
+  },
+  "OBJ_Edge_of_Lightness": {
+    "name": "OBJ Edge of Lightness",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Attack Boost",
+      "Flow"
+    ]
+  },
+  "OBJ_Heavy_Burden": {
+    "name": "OBJ Heavy Burden",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "HP Boost",
+      "Efficacy"
+    ]
+  },
+  "OBJ_Razorhorn": {
+    "name": "OBJ Razorhorn",
+    "rank": 5,
+    "stats": [
+      "Will Boost",
+      "Physical DMG Boost",
+      "Infliction"
+    ]
+  },
+  "OBJ_Velocitous": {
+    "name": "OBJ Velocitous",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Ultimate Gain Boost",
+      "Detonate"
+    ]
+  },
+  "Oblivion": {
+    "name": "Oblivion",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Arts DMG Boost",
+      "Twilight"
+    ]
+  },
+  "Opero_77": {
+    "name": "Opero 77",
+    "rank": 3,
+    "stats": [
+      "Main Attribute Boost",
+      "Assault"
+    ]
+  },
+  "Opus_Etch_Figure": {
+    "name": "Opus: Etch Figure",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Nature DMG Boost",
+      "Suppression"
+    ]
+  },
+  "Opus_The_Living": {
+    "name": "Opus: The Living",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Arts DMG Boost",
+      "Infliction"
+    ]
+  },
+  "Pathfinder%27s_Beacon": {
+    "name": "Pathfinder's Beacon",
+    "rank": 4,
+    "stats": [
+      "Agility Boost",
+      "Attack Boost",
+      "Inspiring"
+    ]
+  },
+  "Peco_5": {
+    "name": "Peco 5",
+    "rank": 3,
+    "stats": [
+      "Main Attribute Boost",
+      "Assault"
+    ]
+  },
+  "Quencher": {
+    "name": "Quencher",
+    "rank": 4,
+    "stats": [
+      "Will Boost",
+      "HP Boost",
+      "Crusher"
+    ]
+  },
+  "Rapid_Ascent": {
+    "name": "Rapid Ascent",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Critical Rate Boost",
+      "Twilight"
+    ]
+  },
+  "Rational_Farewell": {
+    "name": "Rational Farewell",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "Heat DMG Boost",
+      "Pursuit"
+    ]
+  },
+  "Seeker_of_Dark_Lung": {
+    "name": "Seeker of Dark Lung",
+    "rank": 5,
+    "stats": [
+      "Strength Boost",
+      "Ultimate Gain Boost",
+      "Detonate"
+    ]
+  },
+  "Stanza_of_Memorials": {
+    "name": "Stanza of Memorials",
+    "rank": 5,
+    "stats": [
+      "Intellect Boost",
+      "Attack Boost",
+      "Twilight"
+    ]
+  },
+  "Sundered_Prince": {
+    "name": "Sundered Prince",
+    "rank": 6,
+    "stats": [
+      "Strength Boost",
+      "Critical Rate Boost",
+      "Crusher"
+    ]
+  },
+  "Sundering_Steel": {
+    "name": "Sundering Steel",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Combative"
+    ]
+  },
+  "Tarr_11": {
+    "name": "Tarr 11",
+    "rank": 3,
+    "stats": [
+      "Main Attribute Boost",
+      "Assault"
+    ]
+  },
+  "Thermite_Cutter": {
+    "name": "Thermite Cutter",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Attack Boost",
+      "Flow"
+    ]
+  },
+  "Thunderberge": {
+    "name": "Thunderberge",
+    "rank": 6,
+    "stats": [
+      "Strength Boost",
+      "HP Boost",
+      "Medicant"
+    ]
+  },
+  "Twelve_Questions": {
+    "name": "Twelve Questions",
+    "rank": 5,
+    "stats": [
+      "Agility Boost",
+      "Attack Boost",
+      "Infliction"
+    ]
+  },
+  "Umbral_Torch": {
+    "name": "Umbral Torch",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Heat DMG Boost",
+      "Infliction"
+    ]
+  },
+  "Valiant": {
+    "name": "Valiant",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Combative"
+    ]
+  },
+  "Wave_Tide": {
+    "name": "Wave Tide",
+    "rank": 4,
+    "stats": [
+      "Intellect Boost",
+      "Attack Boost",
+      "Pursuit"
+    ]
+  },
+  "Wedge": {
+    "name": "Wedge",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Critical Rate Boost",
+      "Infliction"
+    ]
+  },
+  "White_Night_Nova": {
+    "name": "White Night Nova",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Arts Intensity Boost",
+      "Infliction"
+    ]
+  },
+  "Wild_Wanderer": {
+    "name": "Wild Wanderer",
+    "rank": 5,
+    "stats": [
+      "Intellect Boost",
+      "Electric DMG Boost",
+      "Infliction"
+    ]
+  }
+}
