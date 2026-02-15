@@ -6,7 +6,8 @@
       "Will Boost",
       "Arts DMG Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Ancient_Canal": {
     "name": "Ancient Canal",
@@ -15,7 +16,8 @@
       "Strength Boost",
       "Arts Intensity Boost",
       "Brutality"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Artzy_Tyrannical": {
     "name": "Artzy Tyrannical",
@@ -24,7 +26,8 @@
       "Intellect Boost",
       "Critical Rate Boost",
       "Fracture"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Aspirant": {
     "name": "Aspirant",
@@ -33,7 +36,8 @@
       "Agility Boost",
       "Physical DMG Boost",
       "Twilight"
-    ]
+    ],
+    "type": "Sword"
   },
   "Chimeric_Justice": {
     "name": "Chimeric Justice",
@@ -42,7 +46,8 @@
       "Strength Boost",
       "Ultimate Gain Boost",
       "Brutality"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Chivalric_Virtues": {
     "name": "Chivalric Virtues",
@@ -51,7 +56,8 @@
       "Will Boost",
       "HP Boost",
       "Medicant"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Clannibal": {
     "name": "Clannibal",
@@ -60,7 +66,8 @@
       "Main Attribute Boost",
       "Arts DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Cohesive_Traction": {
     "name": "Cohesive Traction",
@@ -69,7 +76,8 @@
       "Will Boost",
       "Electric DMG Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Contingent_Measure": {
     "name": "Contingent Measure",
@@ -78,15 +86,18 @@
       "Agility Boost",
       "Physical DMG Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Sword"
   },
   "Darhoff_7": {
     "name": "Darhoff 7",
     "rank": 3,
     "stats": [
       "Main Attribute Boost",
+      "",
       "Assault"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Delivery_Guaranteed": {
     "name": "Delivery Guaranteed",
@@ -95,7 +106,8 @@
       "Will Boost",
       "Ultimate Gain Boost",
       "Pursuit"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Detonation_Unit": {
     "name": "Detonation Unit",
@@ -104,7 +116,8 @@
       "Main Attribute Boost",
       "Arts Intensity Boost",
       "Detonate"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Dreams_of_the_Starry_Beach": {
     "name": "Dreams of the Starry Beach",
@@ -113,7 +126,8 @@
       "Intellect Boost",
       "Treatment Efficiency Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Eminent_Repute": {
     "name": "Eminent Repute",
@@ -122,7 +136,8 @@
       "Main Attribute Boost",
       "Physical DMG Boost",
       "Brutality"
-    ]
+    ],
+    "type": "Sword"
   },
   "Exemplar": {
     "name": "Exemplar",
@@ -131,7 +146,8 @@
       "Main Attribute Boost",
       "Attack Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Finchaser_3.0": {
     "name": "Finchaser 3.0",
@@ -140,7 +156,8 @@
       "Strength Boost",
       "Cryo DMG Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Sword"
   },
   "Finishing_Call": {
     "name": "Finishing Call",
@@ -149,7 +166,8 @@
       "Strength Boost",
       "HP Boost",
       "Medicant"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Florescent_Roc": {
     "name": "Florescent Roc",
@@ -158,7 +176,8 @@
       "Will Boost",
       "Attack Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Forgeborn_Scathe": {
     "name": "Forgeborn Scathe",
@@ -167,7 +186,8 @@
       "Intellect Boost",
       "Attack Boost",
       "Twilight"
-    ]
+    ],
+    "type": "Sword"
   },
   "Former_Finery": {
     "name": "Former Finery",
@@ -176,7 +196,8 @@
       "Will Boost",
       "HP Boost",
       "Efficacy"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Fortmaker": {
     "name": "Fortmaker",
@@ -185,7 +206,8 @@
       "Intellect Boost",
       "Ultimate Gain Boost",
       "Inspiring"
-    ]
+    ],
+    "type": "Sword"
   },
   "Freedom_to_Proselytize": {
     "name": "Freedom to Proselytize",
@@ -194,7 +216,8 @@
       "Will Boost",
       "Treatment Efficiency Boost",
       "Medicant"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Grand_Vision": {
     "name": "Grand Vision",
@@ -203,7 +226,8 @@
       "Agility Boost",
       "Attack Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Sword"
   },
   "Howling_Guard": {
     "name": "Howling Guard",
@@ -212,7 +236,8 @@
       "Intellect Boost",
       "Attack Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Hypernova_Auto": {
     "name": "Hypernova Auto",
@@ -221,7 +246,8 @@
       "Intellect Boost",
       "Arts DMG Boost",
       "Inspiring"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Industry_0.1": {
     "name": "Industry 0.1",
@@ -230,7 +256,8 @@
       "Strength Boost",
       "Attack Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "JET": {
     "name": "JET",
@@ -239,15 +266,18 @@
       "Main Attribute Boost",
       "Attack Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Jiminy_12": {
     "name": "Jiminy 12",
     "rank": 3,
     "stats": [
       "Main Attribute Boost",
+      "",
       "Assault"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Khravengger": {
     "name": "Khravengger",
@@ -256,7 +286,8 @@
       "Strength Boost",
       "Attack Boost",
       "Detonate"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Long_Road": {
     "name": "Long Road",
@@ -265,7 +296,8 @@
       "Strength Boost",
       "Arts DMG Boost",
       "Pursuit"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Monaihe": {
     "name": "Monaihe",
@@ -274,7 +306,8 @@
       "Will Boost",
       "Ultimate Gain Boost",
       "Inspiring"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Mountain_Bearer": {
     "name": "Mountain Bearer",
@@ -283,7 +316,8 @@
       "Agility Boost",
       "Physical DMG Boost",
       "Efficacy"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Navigator": {
     "name": "Navigator",
@@ -292,7 +326,8 @@
       "Intellect Boost",
       "Cryo DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Never_Rest": {
     "name": "Never Rest",
@@ -301,7 +336,8 @@
       "Will Boost",
       "Attack Boost",
       "Flow"
-    ]
+    ],
+    "type": "Sword"
   },
   "OBJ_Arts_Identifier": {
     "name": "OBJ Arts Identifier",
@@ -310,7 +346,8 @@
       "Intellect Boost",
       "Arts Intensity Boost",
       "Pursuit"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "OBJ_Edge_of_Lightness": {
     "name": "OBJ Edge of Lightness",
@@ -319,7 +356,8 @@
       "Agility Boost",
       "Attack Boost",
       "Flow"
-    ]
+    ],
+    "type": "Sword"
   },
   "OBJ_Heavy_Burden": {
     "name": "OBJ Heavy Burden",
@@ -328,7 +366,8 @@
       "Strength Boost",
       "HP Boost",
       "Efficacy"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "OBJ_Razorhorn": {
     "name": "OBJ Razorhorn",
@@ -337,7 +376,8 @@
       "Will Boost",
       "Physical DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Polearm"
   },
   "OBJ_Velocitous": {
     "name": "OBJ Velocitous",
@@ -346,7 +386,8 @@
       "Agility Boost",
       "Ultimate Gain Boost",
       "Detonate"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Oblivion": {
     "name": "Oblivion",
@@ -355,15 +396,18 @@
       "Intellect Boost",
       "Arts DMG Boost",
       "Twilight"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Opero_77": {
     "name": "Opero 77",
     "rank": 3,
     "stats": [
       "Main Attribute Boost",
+      "",
       "Assault"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Opus_Etch_Figure": {
     "name": "Opus: Etch Figure",
@@ -372,7 +416,8 @@
       "Will Boost",
       "Nature DMG Boost",
       "Suppression"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Opus_The_Living": {
     "name": "Opus: The Living",
@@ -381,7 +426,8 @@
       "Agility Boost",
       "Arts DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Pathfinder%27s_Beacon": {
     "name": "Pathfinder's Beacon",
@@ -390,15 +436,18 @@
       "Agility Boost",
       "Attack Boost",
       "Inspiring"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Peco_5": {
     "name": "Peco 5",
     "rank": 3,
     "stats": [
       "Main Attribute Boost",
+      "",
       "Assault"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Quencher": {
     "name": "Quencher",
@@ -407,7 +456,8 @@
       "Will Boost",
       "HP Boost",
       "Crusher"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Rapid_Ascent": {
     "name": "Rapid Ascent",
@@ -416,7 +466,8 @@
       "Main Attribute Boost",
       "Critical Rate Boost",
       "Twilight"
-    ]
+    ],
+    "type": "Sword"
   },
   "Rational_Farewell": {
     "name": "Rational Farewell",
@@ -425,7 +476,8 @@
       "Strength Boost",
       "Heat DMG Boost",
       "Pursuit"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "Seeker_of_Dark_Lung": {
     "name": "Seeker of Dark Lung",
@@ -434,7 +486,8 @@
       "Strength Boost",
       "Ultimate Gain Boost",
       "Detonate"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Stanza_of_Memorials": {
     "name": "Stanza of Memorials",
@@ -443,7 +496,8 @@
       "Intellect Boost",
       "Attack Boost",
       "Twilight"
-    ]
+    ],
+    "type": "Arts Unit"
   },
   "Sundered_Prince": {
     "name": "Sundered Prince",
@@ -452,7 +506,8 @@
       "Strength Boost",
       "Critical Rate Boost",
       "Crusher"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Sundering_Steel": {
     "name": "Sundering Steel",
@@ -461,15 +516,18 @@
       "Agility Boost",
       "Physical DMG Boost",
       "Combative"
-    ]
+    ],
+    "type": "Sword"
   },
   "Tarr_11": {
     "name": "Tarr 11",
     "rank": 3,
     "stats": [
       "Main Attribute Boost",
+      "",
       "Assault"
-    ]
+    ],
+    "type": "Sword"
   },
   "Thermite_Cutter": {
     "name": "Thermite Cutter",
@@ -478,7 +536,8 @@
       "Will Boost",
       "Attack Boost",
       "Flow"
-    ]
+    ],
+    "type": "Sword"
   },
   "Thunderberge": {
     "name": "Thunderberge",
@@ -487,7 +546,8 @@
       "Strength Boost",
       "HP Boost",
       "Medicant"
-    ]
+    ],
+    "type": "Greatsword"
   },
   "Twelve_Questions": {
     "name": "Twelve Questions",
@@ -496,7 +556,8 @@
       "Agility Boost",
       "Attack Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Sword"
   },
   "Umbral_Torch": {
     "name": "Umbral Torch",
@@ -505,7 +566,8 @@
       "Intellect Boost",
       "Heat DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Sword"
   },
   "Valiant": {
     "name": "Valiant",
@@ -514,7 +576,8 @@
       "Agility Boost",
       "Physical DMG Boost",
       "Combative"
-    ]
+    ],
+    "type": "Polearm"
   },
   "Wave_Tide": {
     "name": "Wave Tide",
@@ -523,7 +586,8 @@
       "Intellect Boost",
       "Attack Boost",
       "Pursuit"
-    ]
+    ],
+    "type": "Sword"
   },
   "Wedge": {
     "name": "Wedge",
@@ -532,7 +596,8 @@
       "Main Attribute Boost",
       "Critical Rate Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Handcannon"
   },
   "White_Night_Nova": {
     "name": "White Night Nova",
@@ -541,7 +606,8 @@
       "Main Attribute Boost",
       "Arts Intensity Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Sword"
   },
   "Wild_Wanderer": {
     "name": "Wild Wanderer",
@@ -550,6 +616,7 @@
       "Intellect Boost",
       "Electric DMG Boost",
       "Infliction"
-    ]
+    ],
+    "type": "Arts Unit"
   }
 }
