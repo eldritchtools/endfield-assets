@@ -1,8 +1,10 @@
 {
   "Advanced_Cognitive_Carrier": {
+    "hideFactory": true,
     "name": "Advanced Cognitive Carrier"
   },
   "Advanced_Combat_Record": {
+    "hideFactory": true,
     "name": "Advanced Combat Record"
   },
   "Aketine": {
@@ -72,12 +74,15 @@
     "name": "Arms Inspector"
   },
   "Auronyx": {
+    "hideFactory": true,
     "name": "Auronyx"
   },
   "Blighted_Jadeleaf": {
+    "hideFactory": true,
     "name": "Blighted Jadeleaf"
   },
   "Bloodcap": {
+    "hideFactory": true,
     "name": "Bloodcap"
   },
   "Buck_Capsule_[A]": {
@@ -159,6 +164,7 @@
     "name": "Cartilage Bit"
   },
   "Chrysodendra": {
+    "hideFactory": false,
     "name": "Chrysodendra"
   },
   "Citrome": {
@@ -177,6 +183,7 @@
     "name": "Clean Water"
   },
   "Cosmagaric": {
+    "hideFactory": true,
     "name": "Cosmagaric"
   },
   "Cryston_Bottle": {
@@ -219,12 +226,15 @@
     "name": "Dense Origocrust Powder"
   },
   "Elementary_Cognitive_Carrier": {
+    "hideFactory": true,
     "name": "Elementary Cognitive Carrier"
   },
   "Elementary_Combat_Record": {
+    "hideFactory": true,
     "name": "Elementary Combat Record"
   },
   "False_Aggela": {
+    "hideFactory": true,
     "name": "False Aggela"
   },
   "Ferrium": {
@@ -297,12 +307,14 @@
     ]
   },
   "Igneosite": {
+    "hideFactory": true,
     "name": "Igneosite"
   },
   "Industrial_Explosive": {
     "name": "Industrial Explosive"
   },
   "Intermediate_Combat_Record": {
+    "hideFactory": true,
     "name": "Intermediate Combat Record"
   },
   "Jincao": {
@@ -330,9 +342,11 @@
     "name": "Jincao Solution"
   },
   "Kalkodendra": {
+    "hideFactory": true,
     "name": "Kalkodendra"
   },
   "Kalkonyx": {
+    "hideFactory": true,
     "name": "Kalkonyx"
   },
   "LC_Valley_Battery": {
@@ -378,9 +392,11 @@
     "name": "Packed Origocrust"
   },
   "Pink_Bolete": {
+    "hideFactory": true,
     "name": "Pink Bolete"
   },
   "Red_Bolete": {
+    "hideFactory": true,
     "name": "Red Bolete"
   },
   "Redjade_Ginseng": {
@@ -396,6 +412,7 @@
     "name": "Reed Rye Seed"
   },
   "Ruby_Bolete": {
+    "hideFactory": true,
     "name": "Ruby Bolete"
   },
   "SC_Valley_Battery": {
@@ -465,15 +482,18 @@
     "name": "Umbraline"
   },
   "Umbronyx": {
+    "hideFactory": true,
     "name": "Umbronyx"
   },
   "Vitrodendra": {
+    "hideFactory": true,
     "name": "Vitrodendra"
   },
   "Wood": {
     "name": "Wood"
   },
   "Wulingstone": {
+    "hideFactory": true,
     "name": "Wulingstone"
   },
   "Xiranite": {
