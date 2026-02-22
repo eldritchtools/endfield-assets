@@ -1,0 +1,2355 @@
+{
+  "Electric_Mining_Rig_Mk_II|ferrium-ore": {
+    "duration": 3,
+    "facility": "Electric_Mining_Rig_Mk_II",
+    "id": "ferrium-ore",
+    "outputs": [
+      {
+        "id": "Ferrium_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Electric_Mining_Rig|amethyst-ore": {
+    "duration": 3,
+    "facility": "Electric_Mining_Rig",
+    "id": "amethyst-ore",
+    "outputs": [
+      {
+        "id": "Amethyst_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Electric_Mining_Rig|originium-ore": {
+    "duration": 3,
+    "facility": "Electric_Mining_Rig",
+    "id": "originium-ore",
+    "outputs": [
+      {
+        "id": "Originium_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|buck-capsule-a": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "buck-capsule-a",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 10
+      },
+      {
+        "id": "Ground_Buckflower_Powder",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buck_Capsule_[A]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|buck-capsule-b": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "buck-capsule-b",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 10
+      },
+      {
+        "id": "Buckflower_Powder",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buck_Capsule_[B]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|buck-capsule-c": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "buck-capsule-c",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 5
+      },
+      {
+        "id": "Buckflower_Powder",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buck_Capsule_[C]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|canned-citrome-a": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "canned-citrome-a",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 10
+      },
+      {
+        "id": "Ground_Citrome_Powder",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Canned_Citrome_[A]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|canned-citrome-b": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "canned-citrome-b",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 10
+      },
+      {
+        "id": "Citrome_Powder",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Canned_Citrome_[B]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|canned-citrome-c": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "canned-citrome-c",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 5
+      },
+      {
+        "id": "Citrome_Powder",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Canned_Citrome_[C]",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|clean-water-amethyst": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "clean-water-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|clean-water-cryston": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "clean-water-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|clean-water-ferrium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "clean-water-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|clean-water-steel": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "clean-water-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|jincao-solution-amethyst": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "jincao-solution-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|jincao-solution-cryston": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "jincao-solution-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|jincao-solution-ferrium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "jincao-solution-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|jincao-solution-steel": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "jincao-solution-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|liquid-xiranite-amethyst": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "liquid-xiranite-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|liquid-xiranite-cryston": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "liquid-xiranite-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|liquid-xiranite-ferrium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "liquid-xiranite-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|liquid-xiranite-steel": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "liquid-xiranite-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|yazhen-solution-amethyst": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "yazhen-solution-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|yazhen-solution-cryston": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "yazhen-solution-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|yazhen-solution-ferrium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "yazhen-solution-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|yazhen-solution-steel": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "yazhen-solution-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|amethyst-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "amethyst-part",
+    "inputs": [
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Part",
+        "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|cryston-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "cryston-part",
+    "inputs": [
+      {
+        "id": "Cryston_Fiber",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Part",
+        "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|ferrium-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "ferrium-part",
+    "inputs": [
+      {
+        "id": "Ferrium",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Part",
+        "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|steel-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "steel-part",
+    "inputs": [
+      {
+        "id": "Steel",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Part",
+        "qty": 1
+      }
+    ]
+  },
+  "Fluid_Pump|clean-water": {
+    "duration": 1,
+    "facility": "Fluid_Pump",
+    "id": "clean-water",
+    "outputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Forge_of_the_Sky|bumper-rich": {
+    "duration": 2,
+    "facility": "Forge_of_the_Sky",
+    "id": "bumper-rich",
+    "inputs": [
+      {
+        "id": "Burdo-Muck",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Bumper-Rich",
+        "qty": 1
+      }
+    ]
+  },
+  "Forge_of_the_Sky|xiranite": {
+    "duration": 2,
+    "facility": "Forge_of_the_Sky",
+    "id": "xiranite",
+    "inputs": [
+      {
+        "id": "Stabilized_Carbon",
+        "qty": 2
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|amethyst-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "amethyst-component",
+    "inputs": [
+      {
+        "id": "Origocrust",
+        "qty": 5
+      },
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|cryston-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "cryston-component",
+    "inputs": [
+      {
+        "id": "Packed_Origocrust",
+        "qty": 10
+      },
+      {
+        "id": "Cryston_Fiber",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|ferrium-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "ferrium-component",
+    "inputs": [
+      {
+        "id": "Origocrust",
+        "qty": 10
+      },
+      {
+        "id": "Ferrium",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|xiranite-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "xiranite-component",
+    "inputs": [
+      {
+        "id": "Packed_Origocrust",
+        "qty": 10
+      },
+      {
+        "id": "Xiranite",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xiranite_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|cryston-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "cryston-powder",
+    "inputs": [
+      {
+        "id": "Amethyst_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|dense-carbon-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "dense-carbon-powder",
+    "inputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Carbon_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|dense-ferrium-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "dense-ferrium-powder",
+    "inputs": [
+      {
+        "id": "Ferrium_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Ferrium_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|dense-originium-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "dense-originium-powder",
+    "inputs": [
+      {
+        "id": "Originium_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Originium_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|dense-origocrust-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "dense-origocrust-powder",
+    "inputs": [
+      {
+        "id": "Origocrust_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Origocrust_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|ground-buckflower-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "ground-buckflower-powder",
+    "inputs": [
+      {
+        "id": "Buckflower_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ground_Buckflower_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Grinding_Unit|ground-citrome-powder": {
+    "duration": 2,
+    "facility": "Grinding_Unit",
+    "id": "ground-citrome-powder",
+    "inputs": [
+      {
+        "id": "Citrome_Powder",
+        "qty": 2
+      },
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ground_Citrome_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|amethyst-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "amethyst-bottle",
+    "inputs": [
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|cryston-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "cryston-bottle",
+    "inputs": [
+      {
+        "id": "Cryston_Fiber",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|ferrium-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "ferrium-bottle",
+    "inputs": [
+      {
+        "id": "Ferrium",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|steel-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "steel-bottle",
+    "inputs": [
+      {
+        "id": "Steel",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|hc-valley-battery": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "hc-valley-battery",
+    "inputs": [
+      {
+        "id": "Steel_Part",
+        "qty": 10
+      },
+      {
+        "id": "Dense_Originium_Powder",
+        "qty": 15
+      }
+    ],
+    "outputs": [
+      {
+        "id": "HC_Valley_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|industrial-explosive": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "industrial-explosive",
+    "inputs": [
+      {
+        "id": "Amethyst_Part",
+        "qty": 5
+      },
+      {
+        "id": "Aketine_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Industrial_Explosive",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|jincao-drink": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "jincao-drink",
+    "inputs": [
+      {
+        "id": "Ferrium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Ferrium_Bottle_(Jincao_Solution)",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Drink",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|lc-valley-battery": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "lc-valley-battery",
+    "inputs": [
+      {
+        "id": "Amethyst_Part",
+        "qty": 5
+      },
+      {
+        "id": "Originium_Powder",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "LC_Valley_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|lc-wuling-battery": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "lc-wuling-battery",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 5
+      },
+      {
+        "id": "Dense_Originium_Powder",
+        "qty": 15
+      }
+    ],
+    "outputs": [
+      {
+        "id": "LC_Wuling_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|sc-valley-battery": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "sc-valley-battery",
+    "inputs": [
+      {
+        "id": "Ferrium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Originium_Powder",
+        "qty": 15
+      }
+    ],
+    "outputs": [
+      {
+        "id": "SC_Valley_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|yazhen-syringe-c": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "yazhen-syringe-c",
+    "inputs": [
+      {
+        "id": "Ferrium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Ferrium_Bottle_(Yazhen_Solution)",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Syringe_[C]",
+        "qty": 1
+      }
+    ]
+  },
+  "Planting_Unit|aketine": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "aketine",
+    "inputs": [
+      {
+        "id": "Aketine_Seed",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Aketine",
+        "qty": 1
+      }
+    ]
+  },
+  "Planting_Unit|buckflower": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "buckflower",
+    "inputs": [
+      {
+        "id": "Buckflower_Seed",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buckflower",
+        "qty": 1
+      }
+    ]
+  },
+  "Planting_Unit|citrome": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "citrome",
+    "inputs": [
+      {
+        "id": "Citrome_Seed",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Citrome",
+        "qty": 1
+      }
+    ]
+  },
+  "Planting_Unit|jincao": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "jincao",
+    "inputs": [
+      {
+        "id": "Jincao_Seed",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao",
+        "qty": 2
+      }
+    ]
+  },
+  "Planting_Unit|sandleaf": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "sandleaf",
+    "inputs": [
+      {
+        "id": "Sandleaf_Seed",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Sandleaf",
+        "qty": 1
+      }
+    ]
+  },
+  "Planting_Unit|yazhen": {
+    "duration": 2,
+    "facility": "Planting_Unit",
+    "id": "yazhen",
+    "inputs": [
+      {
+        "id": "Yazhen_Seed",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen",
+        "qty": 2
+      }
+    ]
+  },
+  "Reactor_Crucible|jincao-solution": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "jincao-solution",
+    "inputs": [
+      {
+        "id": "Jincao_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|liquid-xiranite": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "liquid-xiranite",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|yazhen-solution": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "yazhen-solution",
+    "inputs": [
+      {
+        "id": "Yazhen_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|amethyst-fiber-from-ore": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "amethyst-fiber-from-ore",
+    "inputs": [
+      {
+        "id": "Amethyst_Ore",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|amethyst-fiber-from-powder": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "amethyst-fiber-from-powder",
+    "inputs": [
+      {
+        "id": "Amethyst_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-buckflower": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-buckflower",
+    "inputs": [
+      {
+        "id": "Buckflower",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-citrome": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-citrome",
+    "inputs": [
+      {
+        "id": "Citrome",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-jincao": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-jincao",
+    "inputs": [
+      {
+        "id": "Jincao",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 2
+      }
+    ]
+  },
+  "Refining_Unit|carbon-powder-buckflower": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-powder-buckflower",
+    "inputs": [
+      {
+        "id": "Buckflower_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-powder-citrome": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-powder-citrome",
+    "inputs": [
+      {
+        "id": "Citrome_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-powder-jincao": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-powder-jincao",
+    "inputs": [
+      {
+        "id": "Jincao_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Refining_Unit|carbon-powder-sandleaf": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-powder-sandleaf",
+    "inputs": [
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 3
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Refining_Unit|carbon-powder-yazhen": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-powder-yazhen",
+    "inputs": [
+      {
+        "id": "Yazhen_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Refining_Unit|carbon-sandleaf": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-sandleaf",
+    "inputs": [
+      {
+        "id": "Sandleaf",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-wood": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-wood",
+    "inputs": [
+      {
+        "id": "Wood",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|carbon-yazhen": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "carbon-yazhen",
+    "inputs": [
+      {
+        "id": "Yazhen",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon",
+        "qty": 2
+      }
+    ]
+  },
+  "Refining_Unit|cryston-fiber": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "cryston-fiber",
+    "inputs": [
+      {
+        "id": "Cryston_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Fiber",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|dense-carbon-powder-buckflower": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "dense-carbon-powder-buckflower",
+    "inputs": [
+      {
+        "id": "Ground_Buckflower_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Carbon_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|dense-carbon-powder-citrome": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "dense-carbon-powder-citrome",
+    "inputs": [
+      {
+        "id": "Ground_Citrome_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Carbon_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|dense-origocrust-powder": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "dense-origocrust-powder",
+    "inputs": [
+      {
+        "id": "Dense_Originium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Dense_Origocrust_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|ferrium-from-ore": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "ferrium-from-ore",
+    "inputs": [
+      {
+        "id": "Ferrium_Ore",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|ferrium-from-powder": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "ferrium-from-powder",
+    "inputs": [
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|origocrust-from-ore": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "origocrust-from-ore",
+    "inputs": [
+      {
+        "id": "Originium_Ore",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Origocrust",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|origocrust-from-powder": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "origocrust-from-powder",
+    "inputs": [
+      {
+        "id": "Origocrust_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Origocrust",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|origocrust-powder": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "origocrust-powder",
+    "inputs": [
+      {
+        "id": "Originium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Origocrust_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|packed-origocrust": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "packed-origocrust",
+    "inputs": [
+      {
+        "id": "Dense_Origocrust_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Packed_Origocrust",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|stabilized-carbon": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "stabilized-carbon",
+    "inputs": [
+      {
+        "id": "Dense_Carbon_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Stabilized_Carbon",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|steel": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "steel",
+    "inputs": [
+      {
+        "id": "Dense_Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel",
+        "qty": 1
+      }
+    ]
+  },
+  "Seed-Picking_Unit|aketine-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "aketine-seed",
+    "inputs": [
+      {
+        "id": "Aketine",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Aketine_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|amber-rice-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "amber-rice-seed",
+    "inputs": [
+      {
+        "id": "Amber_Rice",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amber_Rice_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|buckflower-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "buckflower-seed",
+    "inputs": [
+      {
+        "id": "Buckflower",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buckflower_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|citrome-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "citrome-seed",
+    "inputs": [
+      {
+        "id": "Citrome",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Citrome_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|jincao-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "jincao-seed",
+    "inputs": [
+      {
+        "id": "Jincao",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Seed",
+        "qty": 1
+      }
+    ]
+  },
+  "Seed-Picking_Unit|redjade-ginseng-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "redjade-ginseng-seed",
+    "inputs": [
+      {
+        "id": "Redjade_Ginseng",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Redjade_Ginseng_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|reed-rye-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "reed-rye-seed",
+    "inputs": [
+      {
+        "id": "Reed_Rye",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Reed_Rye_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|sandleaf-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "sandleaf-seed",
+    "inputs": [
+      {
+        "id": "Sandleaf",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Sandleaf_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|tartpepper-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "tartpepper-seed",
+    "inputs": [
+      {
+        "id": "Tartpepper",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Tartpepper_Seed",
+        "qty": 2
+      }
+    ]
+  },
+  "Seed-Picking_Unit|yazhen-seed": {
+    "duration": 2,
+    "facility": "Seed-Picking_Unit",
+    "id": "yazhen-seed",
+    "inputs": [
+      {
+        "id": "Yazhen",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Seed",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|clean-water-amethyst": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "clean-water-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|clean-water-cryston": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "clean-water-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|clean-water-ferrium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "clean-water-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|clean-water-steel": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "clean-water-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|jincao-solution-amethyst": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "jincao-solution-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|jincao-solution-cryston": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "jincao-solution-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|jincao-solution-ferrium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "jincao-solution-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|jincao-solution-steel": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "jincao-solution-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|liquid-xiranite-amethyst": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "liquid-xiranite-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|liquid-xiranite-cryston": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "liquid-xiranite-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|liquid-xiranite-ferrium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "liquid-xiranite-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|liquid-xiranite-steel": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "liquid-xiranite-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|yazhen-solution-amethyst": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "yazhen-solution-amethyst",
+    "inputs": [
+      {
+        "id": "Amethyst_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|yazhen-solution-cryston": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "yazhen-solution-cryston",
+    "inputs": [
+      {
+        "id": "Cryston_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|yazhen-solution-ferrium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "yazhen-solution-ferrium",
+    "inputs": [
+      {
+        "id": "Ferrium_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|yazhen-solution-steel": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "yazhen-solution-steel",
+    "inputs": [
+      {
+        "id": "Steel_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Steel_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Shredding_Unit|aketine-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "aketine-powder",
+    "inputs": [
+      {
+        "id": "Aketine",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Aketine_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Shredding_Unit|amethyst-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "amethyst-powder",
+    "inputs": [
+      {
+        "id": "Amethyst_Fiber",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Shredding_Unit|buckflower-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "buckflower-powder",
+    "inputs": [
+      {
+        "id": "Buckflower",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Buckflower_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Shredding_Unit|carbon-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "carbon-powder",
+    "inputs": [
+      {
+        "id": "Carbon",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Carbon_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Shredding_Unit|citrome-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "citrome-powder",
+    "inputs": [
+      {
+        "id": "Citrome",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Citrome_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Shredding_Unit|ferrium-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "ferrium-powder",
+    "inputs": [
+      {
+        "id": "Ferrium",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Shredding_Unit|jincao-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "jincao-powder",
+    "inputs": [
+      {
+        "id": "Jincao",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Powder",
+        "qty": 2
+      }
+    ]
+  },
+  "Shredding_Unit|originium-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "originium-powder",
+    "inputs": [
+      {
+        "id": "Originium_Ore",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Originium_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Shredding_Unit|origocrust-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "origocrust-powder",
+    "inputs": [
+      {
+        "id": "Origocrust",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Origocrust_Powder",
+        "qty": 1
+      }
+    ]
+  },
+  "Shredding_Unit|sandleaf-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "sandleaf-powder",
+    "inputs": [
+      {
+        "id": "Sandleaf",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Sandleaf_Powder",
+        "qty": 3
+      }
+    ]
+  },
+  "Shredding_Unit|yazhen-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "yazhen-powder",
+    "inputs": [
+      {
+        "id": "Yazhen",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Powder",
+        "qty": 2
+      }
+    ]
+  }
+}
