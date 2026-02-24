@@ -1,50 +1,66 @@
 {
   "Electric_Mining_Rig": {
+    "name": "Electric Mining Rig",
     "power": 5
   },
   "Electric_Mining_Rig_Mk_II": {
+    "name": "Electric Mining Rig Mk II",
     "power": 10
   },
   "Filling_Unit": {
+    "name": "Filling Unit",
     "power": 20
   },
   "Fitting_Unit": {
+    "name": "Fitting Unit",
     "power": 20
   },
   "Fluid_Pump": {
+    "name": "Fluid Pump",
     "power": 10
   },
   "Forge_of_the_Sky": {
+    "name": "Forge of the Sky",
     "power": 50
   },
   "Gearing_Unit": {
+    "name": "Gearing Unit",
     "power": 10
   },
   "Grinding_Unit": {
+    "name": "Grinding Unit",
     "power": 50
   },
   "Moulding_Unit": {
+    "name": "Moulding Unit",
     "power": 10
   },
   "Packaging_Unit": {
+    "name": "Packaging Unit",
     "power": 20
   },
   "Planting_Unit": {
+    "name": "Planting Unit",
     "power": 20
   },
   "Reactor_Crucible": {
+    "name": "Reactor Crucible",
     "power": 50
   },
   "Refining_Unit": {
+    "name": "Refining Unit",
     "power": 5
   },
   "Seed-Picking_Unit": {
+    "name": "Seed-Picking Unit",
     "power": 10
   },
   "Separating_Unit": {
+    "name": "Separating Unit",
     "power": 20
   },
   "Shredding_Unit": {
+    "name": "Shredding Unit",
     "power": 5
   }
 }
