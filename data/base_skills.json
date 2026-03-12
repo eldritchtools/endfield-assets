@@ -569,6 +569,36 @@
       }
     ]
   },
+  "tangtang": {
+    "baseSkills": [
+      {
+        "name": "Supreme Chief",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14%",
+          "Assign to Growth Chamber to slow Mood Drop of all operators in it by 18%"
+        ],
+        "type": "mood drain",
+        "values": [
+          0.14,
+          0.18
+        ]
+      },
+      {
+        "name": "River's Daughter",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to grant vitrified plant growth rate +20%",
+          "Assign to Growth Chamber to grant vitrified plant growth rate +30%"
+        ],
+        "type": "plant",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
+  },
   "wulfgard": {
     "baseSkills": [
       {

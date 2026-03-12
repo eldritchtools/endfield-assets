@@ -4,6 +4,19 @@
     "icon": true,
     "name": "Arts Amp"
   },
+  "arts-burst": {
+    "alts": [
+      "Arts Burst DMG"
+    ],
+    "color": "#33C2FF",
+    "name": "Arts Burst",
+    "subtypes": [
+      "heat-burst",
+      "cryo-burst",
+      "nature-burst",
+      "electric-burst"
+    ]
+  },
   "arts-infliction": {
     "color": "#33C2FF",
     "name": "Arts Infliction",
@@ -118,6 +131,16 @@
     "icon": true,
     "name": "Cryo Amp"
   },
+  "cryo-burst": {
+    "color": "#00C0CB",
+    "intriggers": [
+      "cryo-infliction"
+    ],
+    "name": "Cryo Burst",
+    "parents": [
+      "arts-burst"
+    ]
+  },
   "cryo-dmg": {
     "color": "#00C0CB",
     "name": "Cryo DMG"
@@ -127,7 +150,8 @@
     "icon": true,
     "name": "Cryo Infliction",
     "outtriggers": [
-      "solidification"
+      "solidification",
+      "cryo-burst"
     ],
     "parents": [
       "arts-infliction"
@@ -145,6 +169,16 @@
     "icon": true,
     "name": "Electric Amp"
   },
+  "electric-burst": {
+    "color": "#FDC038",
+    "intriggers": [
+      "electric-infliction"
+    ],
+    "name": "Electric Burst",
+    "parents": [
+      "arts-burst"
+    ]
+  },
   "electric-dmg": {
     "color": "#FDC038",
     "name": "Electric DMG"
@@ -154,7 +188,8 @@
     "icon": true,
     "name": "Electric Infliction",
     "outtriggers": [
-      "electrification"
+      "electrification",
+      "electric-burst"
     ],
     "parents": [
       "arts-infliction"
@@ -202,6 +237,16 @@
     "icon": true,
     "name": "Heat Amp"
   },
+  "heat-burst": {
+    "color": "#FF853F",
+    "intriggers": [
+      "heat-infliction"
+    ],
+    "name": "Heat Burst",
+    "parents": [
+      "arts-burst"
+    ]
+  },
   "heat-dmg": {
     "color": "#FF853F",
     "name": "Heat DMG"
@@ -211,7 +256,8 @@
     "icon": true,
     "name": "Heat Infliction",
     "outtriggers": [
-      "combustion"
+      "combustion",
+      "heat-burst"
     ],
     "parents": [
       "arts-infliction"
@@ -277,6 +323,16 @@
     "icon": true,
     "name": "Nature Amp"
   },
+  "nature-burst": {
+    "color": "#9CD54A",
+    "intriggers": [
+      "nature-infliction"
+    ],
+    "name": "Nature Burst",
+    "parents": [
+      "arts-burst"
+    ]
+  },
   "nature-dmg": {
     "color": "#9CD54A",
     "name": "Nature DMG"
@@ -286,7 +342,8 @@
     "icon": true,
     "name": "Nature Infliction",
     "outtriggers": [
-      "corrosion"
+      "corrosion",
+      "nature-burst"
     ],
     "parents": [
       "arts-infliction"
@@ -298,6 +355,10 @@
     "parents": [
       "arts-infliction-consumed"
     ]
+  },
+  "olden-stare": {
+    "color": "#33C2FF",
+    "name": "OLDEN STARE"
   },
   "originium-crystals": {
     "color": "#33C2FF",
@@ -422,9 +483,23 @@
     ],
     "name": "Vulnerability Consumed"
   },
+  "waterspout": {
+    "alts": [
+      "Waterspouts"
+    ],
+    "color": "#33C2FF",
+    "name": "Waterspout"
+  },
   "weaken": {
     "color": "#33C2FF",
     "icon": true,
     "name": "Weaken"
+  },
+  "whirlpool": {
+    "alts": [
+      "Whirlpools"
+    ],
+    "color": "#33C2FF",
+    "name": "Whirlpool"
   }
 }

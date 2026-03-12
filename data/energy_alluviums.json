@@ -119,6 +119,36 @@
       "Efficacy"
     ]
   },
+  "wuling-qingbo-stockade": {
+    "name": "Severe Energy Alluvium: Qingbo Stockade",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "HP Boost",
+      "Physical DMG Boost",
+      "Electric DMG Boost",
+      "Cryo DMG Boost",
+      "Arts Intensity Boost",
+      "Ultimate Gain Boost",
+      "Arts DMG Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Suppression",
+      "Crusher",
+      "Inspiring",
+      "Combative",
+      "Medicant",
+      "Fracture",
+      "Detonate",
+      "Twilight"
+    ]
+  },
   "wuling-wuling-city": {
     "name": "Severe Energy Alluvium: Wuling City",
     "primary": [
