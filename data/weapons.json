@@ -39,6 +39,16 @@
     ],
     "type": "Sword"
   },
+  "Brigands_Calling": {
+    "name": "Brigand's Calling",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Attack Boost",
+      "Detonate"
+    ],
+    "type": "Handcannon"
+  },
   "Chimeric_Justice": {
     "name": "Chimeric Justice",
     "rank": 5,
@@ -219,6 +229,16 @@
     ],
     "type": "Arts Unit"
   },
+  "Glorious_Memory": {
+    "name": "Glorious Memory",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Critical Rate Boost",
+      "Twilight"
+    ],
+    "type": "Sword"
+  },
   "Grand_Vision": {
     "name": "Grand Vision",
     "rank": 6,
@@ -228,6 +248,16 @@
       "Infliction"
     ],
     "type": "Sword"
+  },
+  "Home_Longing": {
+    "name": "Home Longing",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Cryo DMG Boost",
+      "Suppression"
+    ],
+    "type": "Handcannon"
   },
   "Howling_Guard": {
     "name": "Howling Guard",
