@@ -31,6 +31,10 @@
     "name": "Grinding Unit",
     "power": 50
   },
+  "Hydro_Mining_Rig": {
+    "name": "Hydro Mining Rig",
+    "power": 0
+  },
   "Moulding_Unit": {
     "name": "Moulding Unit",
     "power": 10
@@ -62,5 +66,9 @@
   "Shredding_Unit": {
     "name": "Shredding Unit",
     "power": 5
+  },
+  "Water_Treatment_Unit": {
+    "name": "Water Treatment Unit",
+    "power": 50
   }
 }

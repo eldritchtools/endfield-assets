@@ -200,6 +200,27 @@
       }
     ]
   },
+  "Filling_Unit|clean-water-cuprium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "clean-water-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ]
+  },
   "Filling_Unit|clean-water-ferrium": {
     "duration": 2,
     "facility": "Filling_Unit",
@@ -280,6 +301,27 @@
     "outputs": [
       {
         "id": "Cryston_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ]
+  },
+  "Filling_Unit|jincao-solution-cuprium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "jincao-solution-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle_(Jincao_Solution)",
         "qty": 1
       }
     ]
@@ -368,6 +410,27 @@
       }
     ]
   },
+  "Filling_Unit|liquid-xiranite-cuprium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "liquid-xiranite-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ]
+  },
   "Filling_Unit|liquid-xiranite-ferrium": {
     "duration": 2,
     "facility": "Filling_Unit",
@@ -452,6 +515,27 @@
       }
     ]
   },
+  "Filling_Unit|yazhen-solution-cuprium": {
+    "duration": 2,
+    "facility": "Filling_Unit",
+    "id": "yazhen-solution-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
   "Filling_Unit|yazhen-solution-ferrium": {
     "duration": 2,
     "facility": "Filling_Unit",
@@ -524,6 +608,23 @@
     "outputs": [
       {
         "id": "Cryston_Part",
+        "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|cuprium-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "cuprium-part",
+    "inputs": [
+      {
+        "id": "Cuprium",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Part",
         "qty": 1
       }
     ]
@@ -653,6 +754,27 @@
     "outputs": [
       {
         "id": "Cryston_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|cuprium-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "cuprium-component",
+    "inputs": [
+      {
+        "id": "Cuprium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Xiranite",
+        "qty": 10
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Component",
         "qty": 1
       }
     ]
@@ -846,6 +968,74 @@
       }
     ]
   },
+  "Hydro_Mining_Rig|amethyst-ore": {
+    "duration": 3,
+    "facility": "Hydro_Mining_Rig",
+    "id": "amethyst-ore",
+    "inputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Amethyst_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Hydro_Mining_Rig|cuprium-ore": {
+    "duration": 3,
+    "facility": "Hydro_Mining_Rig",
+    "id": "cuprium-ore",
+    "inputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Hydro_Mining_Rig|ferrium-ore": {
+    "duration": 3,
+    "facility": "Hydro_Mining_Rig",
+    "id": "ferrium-ore",
+    "inputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Ferrium_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Hydro_Mining_Rig|originium-ore": {
+    "duration": 3,
+    "facility": "Hydro_Mining_Rig",
+    "id": "originium-ore",
+    "inputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Originium_Ore",
+        "qty": 1
+      }
+    ]
+  },
   "Moulding_Unit|amethyst-bottle": {
     "duration": 2,
     "facility": "Moulding_Unit",
@@ -876,6 +1066,23 @@
     "outputs": [
       {
         "id": "Cryston_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|cuprium-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "cuprium-bottle",
+    "inputs": [
+      {
+        "id": "Cuprium",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle",
         "qty": 1
       }
     ]
@@ -977,6 +1184,27 @@
       }
     ]
   },
+  "Packaging_Unit|jincao-tea": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "jincao-tea",
+    "inputs": [
+      {
+        "id": "Cuprium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Cuprium_Bottle_(Jincao_Solution)",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Tea",
+        "qty": 1
+      }
+    ]
+  },
   "Packaging_Unit|lc-valley-battery": {
     "duration": 10,
     "facility": "Packaging_Unit",
@@ -1036,6 +1264,48 @@
     "outputs": [
       {
         "id": "SC_Valley_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|sc-wuling-battery": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "sc-wuling-battery",
+    "inputs": [
+      {
+        "id": "Xircon",
+        "qty": 5
+      },
+      {
+        "id": "Dense_Originium_Powder",
+        "qty": 20
+      }
+    ],
+    "outputs": [
+      {
+        "id": "SC_Wuling_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|yazhen-syringe-a": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "yazhen-syringe-a",
+    "inputs": [
+      {
+        "id": "Cuprium_Part",
+        "qty": 10
+      },
+      {
+        "id": "Cuprium_Bottle_(Yazhen_Solution)",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Syringe_[A]",
         "qty": 1
       }
     ]
@@ -1209,6 +1479,56 @@
     "outputs": [
       {
         "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|sewage-processing": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "sewage-processing",
+    "inputs": [
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 1
+      },
+      {
+        "id": "Inert_Xircon_Effluent",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|xircon": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "xircon",
+    "inputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 2
+      },
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
         "qty": 1
       }
     ]
@@ -1468,6 +1788,31 @@
     "outputs": [
       {
         "id": "Cryston_Fiber",
+        "qty": 1
+      }
+    ]
+  },
+  "Refining_Unit|cuprium": {
+    "duration": 2,
+    "facility": "Refining_Unit",
+    "id": "cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Ore",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
         "qty": 1
       }
     ]
@@ -1871,6 +2216,27 @@
       }
     ]
   },
+  "Separating_Unit|clean-water-cuprium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "clean-water-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle_(Clean_Water)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
   "Separating_Unit|clean-water-ferrium": {
     "duration": 2,
     "facility": "Separating_Unit",
@@ -1947,6 +2313,27 @@
     "outputs": [
       {
         "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|jincao-solution-cuprium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "jincao-solution-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle_(Jincao_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle",
         "qty": 1
       },
       {
@@ -2039,6 +2426,27 @@
       }
     ]
   },
+  "Separating_Unit|liquid-xiranite-cuprium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "liquid-xiranite-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle_(Liquid_Xiranite)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
   "Separating_Unit|liquid-xiranite-ferrium": {
     "duration": 2,
     "facility": "Separating_Unit",
@@ -2115,6 +2523,27 @@
     "outputs": [
       {
         "id": "Cryston_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Separating_Unit|yazhen-solution-cuprium": {
+    "duration": 2,
+    "facility": "Separating_Unit",
+    "id": "yazhen-solution-cuprium",
+    "inputs": [
+      {
+        "id": "Cuprium_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Bottle",
         "qty": 1
       },
       {
@@ -2250,6 +2679,23 @@
       }
     ]
   },
+  "Shredding_Unit|cuprium-powder": {
+    "duration": 2,
+    "facility": "Shredding_Unit",
+    "id": "cuprium-powder",
+    "inputs": [
+      {
+        "id": "Cuprium",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Powder",
+        "qty": 1
+      }
+    ]
+  },
   "Shredding_Unit|ferrium-powder": {
     "duration": 2,
     "facility": "Shredding_Unit",
@@ -2349,6 +2795,39 @@
       {
         "id": "Yazhen_Powder",
         "qty": 2
+      }
+    ]
+  },
+  "Water_Treatment_Unit|inert-xircon-effluent": {
+    "duration": 2,
+    "facility": "Water_Treatment_Unit",
+    "id": "inert-xircon-effluent",
+    "inputs": [
+      {
+        "id": "Inert_Xircon_Effluent",
+        "qty": 1
+      }
+    ]
+  },
+  "Water_Treatment_Unit|sewage": {
+    "duration": 2,
+    "facility": "Water_Treatment_Unit",
+    "id": "sewage",
+    "inputs": [
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ]
+  },
+  "Water_Treatment_Unit|xircon-effluent": {
+    "duration": 2,
+    "facility": "Water_Treatment_Unit",
+    "id": "xircon-effluent",
+    "inputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 1
       }
     ]
   }

@@ -213,6 +213,33 @@
   "Cryston_Powder": {
     "name": "Cryston Powder"
   },
+  "Cuprium": {
+    "name": "Cuprium"
+  },
+  "Cuprium_Bottle": {
+    "name": "Cuprium Bottle"
+  },
+  "Cuprium_Bottle_(Clean_Water)": {
+    "name": "Cuprium Bottle (Clean Water)"
+  },
+  "Cuprium_Bottle_(Jincao_Solution)": {
+    "name": "Cuprium Bottle (Jincao Solution)"
+  },
+  "Cuprium_Bottle_(Liquid_Xiranite)": {
+    "name": "Cuprium Bottle (Liquid Xiranite)"
+  },
+  "Cuprium_Bottle_(Yazhen_Solution)": {
+    "name": "Cuprium Bottle (Yazhen Solution)"
+  },
+  "Cuprium_Component": {
+    "name": "Cuprium Component"
+  },
+  "Cuprium_Ore": {
+    "name": "Cuprium Ore"
+  },
+  "Cuprium_Powder": {
+    "name": "Cuprium Powder"
+  },
   "Dense_Carbon_Powder": {
     "name": "Dense Carbon Powder"
   },
@@ -313,6 +340,9 @@
   "Industrial_Explosive": {
     "name": "Industrial Explosive"
   },
+  "Inert_Xircon_Effluent": {
+    "name": "Inert Xircon Effluent"
+  },
   "Intermediate_Combat_Record": {
     "hideFactory": true,
     "name": "Intermediate Combat Record"
@@ -340,6 +370,9 @@
   },
   "Jincao_Solution": {
     "name": "Jincao Solution"
+  },
+  "Jincao_Tea": {
+    "name": "Jincao Tea"
   },
   "Kalkodendra": {
     "hideFactory": true,
@@ -424,6 +457,15 @@
       }
     ]
   },
+  "SC_Wuling_Battery": {
+    "name": "SC Wuling Battery",
+    "outpostValue": [
+      {
+        "value": 54,
+        "zone": "wuling"
+      }
+    ]
+  },
   "Sandleaf": {
     "name": "Sandleaf"
   },
@@ -435,6 +477,9 @@
   },
   "Scorchbug": {
     "name": "Scorchbug"
+  },
+  "Sewage": {
+    "name": "Sewage"
   },
   "Stabilized_Carbon": {
     "name": "Stabilized Carbon"
@@ -508,6 +553,12 @@
   "Xiranite_Component": {
     "name": "Xiranite Component"
   },
+  "Xircon": {
+    "name": "Xircon"
+  },
+  "Xircon_Effluent": {
+    "name": "Xircon Effluent"
+  },
   "Yazhen": {
     "name": "Yazhen"
   },
@@ -525,6 +576,15 @@
   },
   "Yazhen_Spray_[S]": {
     "name": "Yazhen Spray [S]"
+  },
+  "Yazhen_Syringe_[A]": {
+    "name": "Yazhen Syringe [A]",
+    "outpostValue": [
+      {
+        "value": 22,
+        "zone": "wuling"
+      }
+    ]
   },
   "Yazhen_Syringe_[C]": {
     "name": "Yazhen Syringe [C]",
