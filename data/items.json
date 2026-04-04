@@ -238,7 +238,13 @@
     "name": "Cuprium Ore"
   },
   "Cuprium_Part": {
-    "name": "Cuprium Part"
+    "name": "Cuprium Part",
+    "outpostValue": [
+      {
+        "value": 1,
+        "zone": "wuling"
+      }
+    ]
   },
   "Cuprium_Powder": {
     "name": "Cuprium Powder"

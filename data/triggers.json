@@ -372,6 +372,10 @@
     ],
     "name": "Originium Crystals Consumed"
   },
+  "perfect-timing": {
+    "color": "#33C2FF",
+    "name": "perfect timing"
+  },
   "physical-dmg": {
     "color": "#DFBB92",
     "name": "Physical DMG"
@@ -399,6 +403,10 @@
     "color": "#33C2FF",
     "icon": true,
     "name": "Protection"
+  },
+  "razor-clawmark": {
+    "color": "#33C2FF",
+    "name": "Razor Clawmark"
   },
   "shatter": {
     "color": "#00C0CB",
@@ -501,5 +509,9 @@
     ],
     "color": "#33C2FF",
     "name": "Whirlpool"
+  },
+  "wolven-ambrage": {
+    "color": "#33C2FF",
+    "name": "Wolven Ambrage"
   }
 }

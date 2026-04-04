@@ -599,6 +599,44 @@
       "name": "Shieldguard Banner, Forward"
     }
   },
+  "rossi": {
+    "attack": {
+      "description": "BASIC ATTACK: An attack with up to 5 sequences that deals {Physical DMG}. As the controlled operator, {Final Strike} also deals 18 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Physical DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {Physical DMG} and recovers some SP.",
+      "name": "Seething Wolfblood"
+    },
+    "combo": {
+      "description": "COMBO TRIGGER: When an enemy has both {Vulnerability} and {Arts Infliction} stacks.\nSKILL DESCRIPTION: Rossi's combo skill has 2 consecutive sequences. COMBO SEQUENCE 1 deals {Physical DMG} to the target. COMBO SEQUENCE 2 consumes all {Arts Infliction} stacks from the target, deals {Physical DMG} based on the number of {Arts Infliction} stacks consumed, applies 1 instance of {Lift}, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time. If COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of {Vulnerability}.",
+      "inTriggers": [
+        "vulnerability",
+        "arts-infliction"
+      ],
+      "name": "Moment of Blazing Shadow",
+      "outTriggers": [
+        "arts-infliction-consumed",
+        "lift",
+        "vulnerability"
+      ]
+    },
+    "skill": {
+      "description": "SKILL DESCRIPTION: Charges to the target to deal {Physical DMG} and apply {Lift}. If the target already has {Vulnerability} stack(s), the skill also unleashes a {Wolven Ambrage} that charges at the target to deal {Heat DMG}.",
+      "inTriggers": [
+        "vulnerability"
+      ],
+      "name": "Crimson Shadow",
+      "outTriggers": [
+        "lift",
+        "wolven-ambrage",
+        "razor-clawmark"
+      ]
+    },
+    "ultimate": {
+      "description": "SKILL DESCRIPTION: Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of {Heat DMG} to the target. She then performs a two-sequence slash attack with her dagger that deals massive {Heat DMG} and applies {Heat Infliction}. When this skill successfully scores a critical hit, it deals higher Critical DMG.",
+      "name": "\"Razorclaw\" Ambuscade",
+      "outTriggers": [
+        "heat-infliction"
+      ]
+    }
+  },
   "snowshine": {
     "attack": {
       "description": "BASIC ATTACK: An attack with up to 3 sequences that deals {Physical DMG}. As the controlled operator, {Final Strike} also deals 23 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Physical DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {Physical DMG} and recovers some SP.",

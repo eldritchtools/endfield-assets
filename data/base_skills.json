@@ -539,6 +539,36 @@
       }
     ]
   },
+  "rossi": {
+    "baseSkills": [
+      {
+        "name": "Clan Etiquette",
+        "room": "RR",
+        "texts": [
+          "Assign to Reception Room to slow Mood Drop of all operators in it by 14%",
+          "Assign to Reception Room to slow Mood Drop of all operators in it by 18%"
+        ],
+        "type": "mood drain",
+        "values": [
+          0.14,
+          0.18
+        ]
+      },
+      {
+        "name": "Scent of the Hunt",
+        "room": "RR",
+        "texts": [
+          "Assign to Reception Room to grant operator clue collecting efficiency +20%",
+          "Assign to Reception Room to grant operator clue collecting efficiency +30%"
+        ],
+        "type": "clue efficiency",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
+  },
   "snowshine": {
     "baseSkills": [
       {

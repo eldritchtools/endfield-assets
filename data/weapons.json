@@ -179,8 +179,8 @@
     ],
     "type": "Greatsword"
   },
-  "Florescent_Roc": {
-    "name": "Florescent Roc",
+  "Fluorescent_Roc": {
+    "name": "Fluorescent Roc",
     "rank": 4,
     "stats": [
       "Will Boost",
@@ -328,6 +328,16 @@
       "Pursuit"
     ],
     "type": "Handcannon"
+  },
+  "Lupine_Scarlet": {
+    "name": "Lupine Scarlet",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Critical Rate Boost",
+      "Fracture"
+    ],
+    "type": "Sword"
   },
   "Monaihe": {
     "name": "Monaihe",
@@ -478,6 +488,16 @@
       "Assault"
     ],
     "type": "Handcannon"
+  },
+  "Prominent_Edge": {
+    "name": "Prominent Edge",
+    "rank": 4,
+    "stats": [
+      "Agility Boost",
+      "Physical DMG Boost",
+      "Suppression"
+    ],
+    "type": "Sword"
   },
   "Quencher": {
     "name": "Quencher",
