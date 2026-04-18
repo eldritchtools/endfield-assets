@@ -817,7 +817,8 @@
       "description": "COMBO TRIGGER: When the controlled operator's {Final Strike} or Finisher hits an enemy with {Electric Infliction}.\nSKILL DESCRIPTION: Zhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals {Electric DMG}. If the Array hits an enemy that has {Electric Infliction} stack(s), then it will consume the said {Electric Infliction} stack(s), forcibly apply {Electrification}, and give Ultimate Energy based on the number of stacks consumed. If {Electrification} is forcibly applied to an enemy that already has {Electrification}, then apply Status Level +1 to the enemy's {Electrification}.",
       "inTriggers": [
         "electric-infliction",
-        "electrification"
+        "electrification",
+        "breath-of-transformation"
       ],
       "name": "Breath of Transformation",
       "outTriggers": [
@@ -826,9 +827,11 @@
       ]
     },
     "skill": {
-      "description": "SKILL DESCRIPTION: Consumes the target's {Electrification} to increase the DMG multiplier of this battle skill and create [Status Level of {Electrification} consumed +1] {Sunderblades}. If the battlefield has fewer than 3 {Sunderblades}, Mantra of Sundering can still create 1 {Sunderblade}, even if it does not consume any target's {Electrification}. Zhuang Fangyi then channels all {Sunderblades} nearby to successively unleash Thunder Strikes on the target, dealing {Electric DMG} and giving bonus Ultimate Energy, with the final Thunder Strike dealing 6 times the DMG. A single battle skill casting can only create a max of 3 {Sunderblades}.",
+      "description": "SKILL DESCRIPTION: Consumes the target's {Electrification} to increase the DMG multiplier of this battle skill and create [Status Level of {Electrification} consumed +1] {Sunderblades}. If the battlefield has fewer than 3 {Sunderblades}, {Mantra of Sundering} can still create 1 {Sunderblade}, even if it does not consume any target's {Electrification}. Zhuang Fangyi then channels all {Sunderblades} nearby to successively unleash Thunder Strikes on the target, dealing {Electric DMG} and giving bonus Ultimate Energy, with the final Thunder Strike dealing 6 times the DMG. A single battle skill casting can only create a max of 3 {Sunderblades}.",
       "inTriggers": [
-        "electrification"
+        "electrification",
+        "mantra-of-sundering",
+        "sunderblade"
       ],
       "name": "Mantra of Sundering",
       "outTriggers": [
@@ -838,10 +841,12 @@
       ]
     },
     "ultimate": {
-      "description": "SKILL DESCRIPTION: Transforms into the Empyrean of Truth that grants these enhancements: Zhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt; Battle skill Mantra of Sundering gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies {Electric Infliction} to the target hit. Combo skill Breath of Transformation gains a higher DMG multiplier, cooldown becomes 4 times faster, and effects are applied to enemies within a small area. The first casting of the battle skill Mantra of Sundering on an available target does not consume SP nor Electrification, and is guaranteed to create 3 Sunderblades even if the target has no Electrification.",
+      "description": "SKILL DESCRIPTION: Transforms into the Empyrean of Truth that grants these enhancements: Zhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt; Battle skill {Mantra of Sundering} gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies {Electric Infliction} to the target hit. Combo skill {Breath of Transformation} gains a higher DMG multiplier, cooldown becomes 4 times faster, and effects are applied to enemies within a small area. The first casting of the battle skill {Mantra of Sundering} on an available target does not consume SP nor Electrification, and is guaranteed to create 3 Sunderblades even if the target has no Electrification.",
       "name": "Smiting Tempest",
       "outTriggers": [
-        "electric-infliction"
+        "electric-infliction",
+        "mantra-of-sundering",
+        "breath-of-transformation"
       ]
     }
   }
