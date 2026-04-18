@@ -249,6 +249,9 @@
   "Cuprium_Powder": {
     "name": "Cuprium Powder"
   },
+  "Cuprium_Solution": {
+    "name": "Cuprium Solution"
+  },
   "Dense_Carbon_Powder": {
     "name": "Dense Carbon Powder"
   },
@@ -342,6 +345,36 @@
       }
     ]
   },
+  "Heavy_Xiranite": {
+    "name": "Heavy Xiranite",
+    "outpostValue": [
+      {
+        "value": 27,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Hetonite": {
+    "name": "Hetonite"
+  },
+  "Hetonite_Bottle": {
+    "name": "Hetonite Bottle"
+  },
+  "Hetonite_Component": {
+    "name": "Hetonite Component"
+  },
+  "Hetonite_Part": {
+    "name": "Hetonite Part",
+    "outpostValue": [
+      {
+        "value": 48,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Hetonite_Solution": {
+    "name": "Hetonite Solution"
+  },
   "Igneosite": {
     "hideFactory": true,
     "name": "Igneosite"
@@ -381,7 +414,13 @@
     "name": "Jincao Solution"
   },
   "Jincao_Tea": {
-    "name": "Jincao Tea"
+    "name": "Jincao Tea",
+    "outpostValue": [
+      {
+        "value": 22,
+        "zone": "wuling"
+      }
+    ]
   },
   "Kalkodendra": {
     "hideFactory": true,
@@ -408,6 +447,9 @@
         "zone": "wuling"
       }
     ]
+  },
+  "Liquid_Heavy_Xiranite": {
+    "name": "Liquid Heavy Xiranite"
   },
   "Liquid_Xiranite": {
     "name": "Liquid Xiranite"
@@ -436,6 +478,9 @@
   "Pink_Bolete": {
     "hideFactory": true,
     "name": "Pink Bolete"
+  },
+  "Precipitation_Acid": {
+    "name": "Precipitation Acid"
   },
   "Red_Bolete": {
     "hideFactory": true,

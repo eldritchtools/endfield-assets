@@ -78,6 +78,10 @@
       "physical-status"
     ]
   },
+  "breath-of-transformation": {
+    "color": "#33C2FF",
+    "name": "Breath of Transformation"
+  },
   "combustion": {
     "color": "#FF853F",
     "icon": true,
@@ -225,6 +229,10 @@
       "arts-reaction-consumed"
     ]
   },
+  "empyrean-of-truth": {
+    "color": "#33C2FF",
+    "name": "Empyrean of Truth"
+  },
   "final-strike": {
     "name": "Final Strike"
   },
@@ -313,6 +321,10 @@
     "color": "#33C2FF",
     "icon": true,
     "name": "Link"
+  },
+  "mantra-of-sundering": {
+    "color": "#33C2FF",
+    "name": "Mantra of Sundering"
   },
   "melting-flame": {
     "color": "#33C2FF",
@@ -450,6 +462,13 @@
   "steel-oath": {
     "color": "#33C2FF",
     "name": "Steel Oath"
+  },
+  "sunderblade": {
+    "alts": [
+      "Sunderblades"
+    ],
+    "color": "#33C2FF",
+    "name": "Sunderblade"
   },
   "thunderlance": {
     "alts": [

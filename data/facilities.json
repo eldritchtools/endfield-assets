@@ -1,4 +1,8 @@
 {
+  "Acid_Resistant_Pump_Mk_II": {
+    "name": "Acid Resistant Pump Mk II",
+    "power": 20
+  },
   "Electric_Mining_Rig": {
     "name": "Electric Mining Rig",
     "power": 5
@@ -6,6 +10,10 @@
   "Electric_Mining_Rig_Mk_II": {
     "name": "Electric Mining Rig Mk II",
     "power": 10
+  },
+  "Expanded_Crucible": {
+    "name": "Expanded Crucible",
+    "power": 100
   },
   "Filling_Unit": {
     "name": "Filling Unit",
@@ -46,6 +54,10 @@
   "Planting_Unit": {
     "name": "Planting Unit",
     "power": 20
+  },
+  "Purification_Unit": {
+    "name": "Purification Unit",
+    "power": 50
   },
   "Reactor_Crucible": {
     "name": "Reactor Crucible",

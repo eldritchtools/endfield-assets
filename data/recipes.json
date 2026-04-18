@@ -1,4 +1,26 @@
 {
+  "Acid_Resistant_Pump_Mk_II|clean-water": {
+    "duration": 1,
+    "facility": "Acid_Resistant_Pump_Mk_II",
+    "id": "clean-water",
+    "outputs": [
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Acid_Resistant_Pump_Mk_II|precipitation-acid": {
+    "duration": 1,
+    "facility": "Acid_Resistant_Pump_Mk_II",
+    "id": "precipitation-acid",
+    "outputs": [
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ]
+  },
   "Electric_Mining_Rig_Mk_II|ferrium-ore": {
     "duration": 3,
     "facility": "Electric_Mining_Rig_Mk_II",
@@ -28,6 +50,186 @@
     "outputs": [
       {
         "id": "Originium_Ore",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|cuprium-solution": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "cuprium-solution",
+    "inputs": [
+      {
+        "id": "Cuprium_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|hetonite": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "hetonite",
+    "inputs": [
+      {
+        "id": "Hetonite_Solution",
+        "qty": 2
+      },
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|jincao-solution": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "jincao-solution",
+    "inputs": [
+      {
+        "id": "Jincao_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|liquid-heavy-xiranite": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "liquid-heavy-xiranite",
+    "inputs": [
+      {
+        "id": "Heavy_Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Liquid_Heavy_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|liquid-xiranite": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "liquid-xiranite",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|sewage-processing": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "sewage-processing",
+    "inputs": [
+      {
+        "id": "Liquid_Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 1
+      },
+      {
+        "id": "Inert_Xircon_Effluent",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|xircon": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "xircon",
+    "inputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 2
+      },
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ]
+  },
+  "Expanded_Crucible|yazhen-solution": {
+    "duration": 2,
+    "facility": "Expanded_Crucible",
+    "id": "yazhen-solution",
+    "inputs": [
+      {
+        "id": "Yazhen_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Yazhen_Solution",
         "qty": 1
       }
     ]
@@ -646,6 +848,23 @@
       }
     ]
   },
+  "Fitting_Unit|hetonite-part": {
+    "duration": 10,
+    "facility": "Fitting_Unit",
+    "id": "hetonite-part",
+    "inputs": [
+      {
+        "id": "Hetonite",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite_Part",
+        "qty": 1
+      }
+    ]
+  },
   "Fitting_Unit|steel-part": {
     "duration": 2,
     "facility": "Fitting_Unit",
@@ -691,6 +910,27 @@
     "outputs": [
       {
         "id": "Bumper-Rich",
+        "qty": 1
+      }
+    ]
+  },
+  "Forge_of_the_Sky|heavy-xiranite": {
+    "duration": 2,
+    "facility": "Forge_of_the_Sky",
+    "id": "heavy-xiranite",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 10
+      },
+      {
+        "id": "Xircon_Effluent",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Heavy_Xiranite",
         "qty": 1
       }
     ]
@@ -796,6 +1036,27 @@
     "outputs": [
       {
         "id": "Ferrium_Component",
+        "qty": 1
+      }
+    ]
+  },
+  "Gearing_Unit|hetonite-component": {
+    "duration": 10,
+    "facility": "Gearing_Unit",
+    "id": "hetonite-component",
+    "inputs": [
+      {
+        "id": "Hetonite_Part",
+        "qty": 2
+      },
+      {
+        "id": "Heavy_Xiranite",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite_Component",
         "qty": 1
       }
     ]
@@ -1100,6 +1361,23 @@
     "outputs": [
       {
         "id": "Ferrium_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Moulding_Unit|hetonite-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "hetonite-bottle",
+    "inputs": [
+      {
+        "id": "Hetonite",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite_Bottle",
         "qty": 1
       }
     ]
@@ -1441,6 +1719,94 @@
       }
     ]
   },
+  "Purification_Unit|cuprium-solution": {
+    "duration": 2,
+    "facility": "Purification_Unit",
+    "id": "cuprium-solution",
+    "inputs": [
+      {
+        "id": "Cuprium_Solution",
+        "qty": 4
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite_Solution",
+        "qty": 1
+      },
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ]
+  },
+  "Purification_Unit|inert-xircon-effluent": {
+    "duration": 2,
+    "facility": "Purification_Unit",
+    "id": "inert-xircon-effluent",
+    "inputs": [
+      {
+        "id": "Inert_Xircon_Effluent",
+        "qty": 4
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 1
+      },
+      {
+        "id": "Clean_Water",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|cuprium-solution": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "cuprium-solution",
+    "inputs": [
+      {
+        "id": "Cuprium_Powder",
+        "qty": 1
+      },
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Cuprium_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|hetonite": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "hetonite",
+    "inputs": [
+      {
+        "id": "Hetonite_Solution",
+        "qty": 2
+      },
+      {
+        "id": "Ferrium_Powder",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Hetonite",
+        "qty": 1
+      },
+      {
+        "id": "Sewage",
+        "qty": 1
+      }
+    ]
+  },
   "Reactor_Crucible|jincao-solution": {
     "duration": 2,
     "facility": "Reactor_Crucible",
@@ -1458,6 +1824,27 @@
     "outputs": [
       {
         "id": "Jincao_Solution",
+        "qty": 1
+      }
+    ]
+  },
+  "Reactor_Crucible|liquid-heavy-xiranite": {
+    "duration": 2,
+    "facility": "Reactor_Crucible",
+    "id": "liquid-heavy-xiranite",
+    "inputs": [
+      {
+        "id": "Heavy_Xiranite",
+        "qty": 1
+      },
+      {
+        "id": "Precipitation_Acid",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Liquid_Heavy_Xiranite",
         "qty": 1
       }
     ]

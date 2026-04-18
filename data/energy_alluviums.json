@@ -119,6 +119,36 @@
       "Efficacy"
     ]
   },
+  "wuling-marker-stone": {
+    "name": "Severe Energy Alluvium: Marker Stone",
+    "primary": [
+      "Strength Boost",
+      "Agility Boost",
+      "Intellect Boost",
+      "Will Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "Physical DMG Boost",
+      "Heat DMG Boost",
+      "Electric DMG Boost",
+      "Nature DMG Boost",
+      "Critical Rate Boost",
+      "Ultimate Gain Boost",
+      "Arts DMG Boost"
+    ],
+    "skill": [
+      "Assault",
+      "Pursuit",
+      "Inspiring",
+      "Brutality",
+      "Infliction",
+      "Twilight",
+      "Flow",
+      "Efficacy"
+    ]
+  },
   "wuling-qingbo-stockade": {
     "name": "Severe Energy Alluvium: Qingbo Stockade",
     "primary": [

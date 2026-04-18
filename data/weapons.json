@@ -179,6 +179,16 @@
     ],
     "type": "Greatsword"
   },
+  "Flickers_in_the_Mist": {
+    "name": "Flickers in the Mist",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Electric DMG Boost",
+      "Efficacy"
+    ],
+    "type": "Arts Unit"
+  },
   "Fluorescent_Roc": {
     "name": "Fluorescent Roc",
     "rank": 4,
@@ -318,6 +328,16 @@
       "Detonate"
     ],
     "type": "Greatsword"
+  },
+  "Lone_Barge": {
+    "name": "Lone Barge",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Attack Boost",
+      "Suppression"
+    ],
+    "type": "Arts Unit"
   },
   "Long_Road": {
     "name": "Long Road",

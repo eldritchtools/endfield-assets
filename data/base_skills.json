@@ -718,5 +718,35 @@
         ]
       }
     ]
+  },
+  "zhuang-fangyi": {
+    "baseSkills": [
+      {
+        "name": "Viceroy Experience",
+        "room": "MFG",
+        "texts": [
+          "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%",
+          "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 18%"
+        ],
+        "type": "mood drain",
+        "values": [
+          0.14,
+          0.18
+        ]
+      },
+      {
+        "name": "Tianshi Chi Meditation",
+        "room": "MFG",
+        "texts": [
+          "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%",
+          "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +30%"
+        ],
+        "type": "operator xp",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
   }
 }
