@@ -831,6 +831,23 @@
       }
     ]
   },
+  "Fitting_Unit|experimental-xiranite-part": {
+    "duration": 2,
+    "facility": "Fitting_Unit",
+    "id": "experimental-xiranite-part",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Xiranite_Part",
+        "qty": 1
+      }
+    ]
+  },
   "Fitting_Unit|ferrium-part": {
     "duration": 2,
     "facility": "Fitting_Unit",
@@ -1348,6 +1365,23 @@
       }
     ]
   },
+  "Moulding_Unit|experimental-xiranite-bottle": {
+    "duration": 2,
+    "facility": "Moulding_Unit",
+    "id": "experimental-xiranite-bottle",
+    "inputs": [
+      {
+        "id": "Xiranite",
+        "qty": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Xiranite_Bottle",
+        "qty": 1
+      }
+    ]
+  },
   "Moulding_Unit|ferrium-bottle": {
     "duration": 2,
     "facility": "Moulding_Unit",
@@ -1563,6 +1597,27 @@
     "outputs": [
       {
         "id": "SC_Wuling_Battery",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|xiranite-gourd": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "xiranite-gourd",
+    "inputs": [
+      {
+        "id": "Experimental_Xiranite_Bottle",
+        "qty": 5
+      },
+      {
+        "id": "Experimental_Xiranite_Part",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xiranite_Gourd",
         "qty": 1
       }
     ]

@@ -272,6 +272,12 @@
     "hideFactory": true,
     "name": "Elementary Combat Record"
   },
+  "Experimental_Xiranite_Bottle": {
+    "name": "Experimental Xiranite Bottle"
+  },
+  "Experimental_Xiranite_Part": {
+    "name": "Experimental Xiranite Part"
+  },
   "False_Aggela": {
     "hideFactory": true,
     "name": "False Aggela"
@@ -606,6 +612,15 @@
   },
   "Xiranite_Component": {
     "name": "Xiranite Component"
+  },
+  "Xiranite_Gourd": {
+    "name": "Xiranite Gourd",
+    "outpostValue": [
+      {
+        "value": 40,
+        "zone": "wuling"
+      }
+    ]
   },
   "Xircon": {
     "name": "Xircon"
