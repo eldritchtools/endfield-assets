@@ -675,6 +675,27 @@
       }
     ]
   },
+  "Filling_Unit|yazhen-experimental-heavy-xiranite": {
+    "duration": 10,
+    "facility": "Filling_Unit",
+    "id": "yazhen-experimental-heavy-xiranite",
+    "inputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Bottle",
+        "qty": 1
+      },
+      {
+        "id": "Yazhen_Solution",
+        "qty": 5
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      }
+    ]
+  },
   "Filling_Unit|yazhen-solution-amethyst": {
     "duration": 2,
     "facility": "Filling_Unit",
@@ -828,6 +849,23 @@
       {
         "id": "Cuprium_Part",
         "qty": 1
+      }
+    ]
+  },
+  "Fitting_Unit|experimental-heavy-xiranite-part": {
+    "duration": 20,
+    "facility": "Fitting_Unit",
+    "id": "experimental-heavy-xiranite-part",
+    "inputs": [
+      {
+        "id": "Heavy_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Part",
+        "qty": 2
       }
     ]
   },
@@ -1365,6 +1403,23 @@
       }
     ]
   },
+  "Moulding_Unit|experimental-heavy-xiranite-bottle": {
+    "duration": 20,
+    "facility": "Moulding_Unit",
+    "id": "experimental-heavy-xiranite-bottle",
+    "inputs": [
+      {
+        "id": "Heavy_Xiranite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Bottle",
+        "qty": 2
+      }
+    ]
+  },
   "Moulding_Unit|experimental-xiranite-bottle": {
     "duration": 2,
     "facility": "Moulding_Unit",
@@ -1429,6 +1484,27 @@
     "outputs": [
       {
         "id": "Steel_Bottle",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|experimental-xiran-hue-atomizer": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "experimental-xiran-hue-atomizer",
+    "inputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Part",
+        "qty": 1
+      },
+      {
+        "id": "Hetonite",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Part",
         "qty": 1
       }
     ]
@@ -1618,6 +1694,27 @@
     "outputs": [
       {
         "id": "Xiranite_Gourd",
+        "qty": 1
+      }
+    ]
+  },
+  "Packaging_Unit|xiranite-jade-gourd": {
+    "duration": 10,
+    "facility": "Packaging_Unit",
+    "id": "xiranite-jade-gourd",
+    "inputs": [
+      {
+        "id": "Experimental_Heavy_Xiranite_Bottle_(Yazhen_Solution)",
+        "qty": 1
+      },
+      {
+        "id": "Experimental_Xiran-Hue_Atomizer",
+        "qty": 1
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xiranite_Jade_Gourd",
         "qty": 1
       }
     ]

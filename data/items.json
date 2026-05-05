@@ -272,6 +272,18 @@
     "hideFactory": true,
     "name": "Elementary Combat Record"
   },
+  "Experimental_Heavy_Xiranite_Bottle": {
+    "name": "Experimental Heavy Xiranite Bottle"
+  },
+  "Experimental_Heavy_Xiranite_Bottle_(Yazhen_Solution)": {
+    "name": "Experimental Heavy Xiranite Bottle (Yazhen Solution)"
+  },
+  "Experimental_Heavy_Xiranite_Part": {
+    "name": "Experimental Heavy Xiranite Part"
+  },
+  "Experimental_Xiran-Hue_Atomizer": {
+    "name": "Experimental Xiran-Hue Atomizer"
+  },
   "Experimental_Xiranite_Bottle": {
     "name": "Experimental Xiranite Bottle"
   },
@@ -618,6 +630,15 @@
     "outpostValue": [
       {
         "value": 40,
+        "zone": "wuling"
+      }
+    ]
+  },
+  "Xiranite_Jade_Gourd": {
+    "name": "Xiranite Jade Gourd",
+    "outpostValue": [
+      {
+        "value": 120,
         "zone": "wuling"
       }
     ]
