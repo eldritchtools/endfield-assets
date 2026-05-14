@@ -626,22 +626,10 @@
     "name": "Xiranite Component"
   },
   "Xiranite_Gourd": {
-    "name": "Xiranite Gourd",
-    "outpostValue": [
-      {
-        "value": 40,
-        "zone": "wuling"
-      }
-    ]
+    "name": "Xiranite Gourd"
   },
   "Xiranite_Jade_Gourd": {
-    "name": "Xiranite Jade Gourd",
-    "outpostValue": [
-      {
-        "value": 120,
-        "zone": "wuling"
-      }
-    ]
+    "name": "Xiranite Jade Gourd"
   },
   "Xircon": {
     "name": "Xircon"

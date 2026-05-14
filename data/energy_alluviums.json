@@ -179,6 +179,36 @@
       "Twilight"
     ]
   },
+  "wuling-test-area": {
+    "name": "Severe Energy Alluvium: Test Area",
+    "primary": [
+      "Agility Boost",
+      "Strength Boost",
+      "Will Boost",
+      "Intellect Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "HP Boost",
+      "Heat DMG Boost",
+      "Electric DMG Boost",
+      "Cryo DMG Boost",
+      "Nature DMG Boost",
+      "Arts Intensity Boost",
+      "Ultimate Gain Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Suppression",
+      "Crusher",
+      "Combative",
+      "Brutality",
+      "Infliction",
+      "Fracture",
+      "Twilight",
+      "Flow"
+    ]
+  },
   "wuling-wuling-city": {
     "name": "Severe Energy Alluvium: Wuling City",
     "primary": [

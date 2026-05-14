@@ -1871,6 +1871,23 @@
       }
     ]
   },
+  "Purification_Node|xircon-effluent": {
+    "duration": 5,
+    "facility": "Purification_Node",
+    "id": "xircon-effluent",
+    "inputs": [
+      {
+        "id": "Sewage",
+        "qty": 30
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Xircon_Effluent",
+        "qty": 1
+      }
+    ]
+  },
   "Purification_Unit|cuprium-solution": {
     "duration": 2,
     "facility": "Purification_Unit",

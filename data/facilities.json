@@ -55,6 +55,10 @@
     "name": "Planting Unit",
     "power": 20
   },
+  "Purification_Node": {
+    "name": "Purification Node",
+    "power": 0
+  },
   "Purification_Unit": {
     "name": "Purification Unit",
     "power": 50
