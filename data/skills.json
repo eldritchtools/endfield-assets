@@ -541,6 +541,39 @@
       ]
     }
   },
+  "mi-fu": {
+    "attack": {
+      "description": "BASIC ATTACK: An attack with up to 4 sequences that deals {Physical DMG}. As the controlled operator, {Final Strike} also deals 25 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Physical DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive {Physical DMG} and recovers some SP.",
+      "name": "Fistmancer of Blades"
+    },
+    "combo": {
+      "description": "COMBO TRIGGER: When an enemy has 3 or more {Vulnerability} stacks.\nSKILL DESCRIPTION: Mi Fu unleashes a devastating uppercut at the enemy, dealing {Physical DMG} and applying temporary {Physical Susceptibility}. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+      "inTriggers": [
+        "vulnerability"
+      ],
+      "name": "Fists of No Regrets",
+      "outTriggers": [
+        "physical-susceptibility"
+      ]
+    },
+    "skill": {
+      "description": "SKILL DESCRIPTION: Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is Cloudtrapper. MOVE 1 - Cloudtrapper: Costs 100 SP and returns 50 SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals {Physical DMG} to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with Trail and Mangle. MOVE 2 - Trail and Mangle: Costs 50 SP; Mi Fu unleashes a flurry of punches that deals {Physical DMG} with the final punch applying {Crush}. If this {Crush} consumes at least 3 {Vulnerability} stacks from a single target, then the next battle skill will be temporarily replaced with World Splitter. MOVE 3 - World Splitter: Costs 50 SP; Mi Fu deals massive {Physical DMG} to a specified area; this DMG is not treated as Battle Skill DMG, but as {Crush} DMG.",
+      "inTriggers": [
+        "vulnerability"
+      ],
+      "name": "Qingbo Triplex",
+      "outTriggers": [
+        "crush"
+      ]
+    },
+    "ultimate": {
+      "description": "SKILL DESCRIPTION: After a short power up, Mi Fu dashes forward to forcibly {Lift} a target into mid-air, then slams the said target to deal {Physical DMG}. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+      "name": "Pile of No Mercy",
+      "outTriggers": [
+        "lift"
+      ]
+    }
+  },
   "perlica": {
     "attack": {
       "description": "BASIC ATTACK: An attack with up to 4 sequences that deals {Electric DMG}. As the controlled operator, {Final Strike} also deals 15 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Electric DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive {Electric DMG} and recovers some SP.",

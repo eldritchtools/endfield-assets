@@ -479,6 +479,36 @@
       }
     ]
   },
+  "mi-fu": {
+    "baseSkills": [
+      {
+        "name": "Secret Informants",
+        "room": "CN",
+        "texts": [
+          "Assign to Reception Room to grant operators a small Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)",
+          "Assign to Reception Room to grant operators Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)"
+        ],
+        "type": "clue rate up",
+        "values": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "Esoteric Tisane",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to grant fungal matter growth rate +20%",
+          "Assign to Growth Chamber to grant fungal matter growth rate +30%"
+        ],
+        "type": "fungus",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
+  },
   "perlica": {
     "baseSkills": [
       {
