@@ -483,7 +483,7 @@
     "baseSkills": [
       {
         "name": "Secret Informants",
-        "room": "CN",
+        "room": "RR",
         "texts": [
           "Assign to Reception Room to grant operators a small Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)",
           "Assign to Reception Room to grant operators Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)"
