@@ -179,6 +179,36 @@
       "Twilight"
     ]
   },
+  "wuling-sword-vault-dale": {
+    "name": "Severe Energy Alluvium: Sword Vault Dale",
+    "primary": [
+      "Agility Boost",
+      "Strength Boost",
+      "Will Boost",
+      "Intellect Boost",
+      "Main Attribute Boost"
+    ],
+    "secondary": [
+      "Attack Boost",
+      "HP Boost",
+      "Physical DMG Boost",
+      "Heat DMG Boost",
+      "Cryo DMG Boost",
+      "Nature DMG Boost",
+      "Arts Intensity Boost",
+      "Treatment Efficiency Boost"
+    ],
+    "skill": [
+      "Assault",
+      "Pursuit",
+      "Inspiring",
+      "Combative",
+      "Medicant",
+      "Fracture",
+      "Detonate",
+      "Efficacy"
+    ]
+  },
   "wuling-test-area": {
     "name": "Severe Energy Alluvium: Test Area",
     "primary": [
