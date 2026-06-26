@@ -9,6 +9,16 @@
     ],
     "type": "Polearm"
   },
+  "Amaranthine_Tassel": {
+    "name": "Amaranthine Tassel",
+    "rank": 6,
+    "stats": [
+      "Strength Boost",
+      "Attack Boost",
+      "Combative"
+    ],
+    "type": "Greatsword"
+  },
   "Ancient_Canal": {
     "name": "Ancient Canal",
     "rank": 5,
@@ -38,6 +48,26 @@
       "Twilight"
     ],
     "type": "Sword"
+  },
+  "Beacon_of_Duty": {
+    "name": "Beacon of Duty",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Ultimate Gain Boost",
+      "Efficacy"
+    ],
+    "type": "Polearm"
+  },
+  "Blessing_of_Lustrous_Carmine": {
+    "name": "Blessing of Lustrous Carmine",
+    "rank": 6,
+    "stats": [
+      "Agility Boost",
+      "Heat DMG Boost",
+      "Flow"
+    ],
+    "type": "Polearm"
   },
   "Brigands_Calling": {
     "name": "Brigand's Calling",
@@ -508,6 +538,16 @@
       "Assault"
     ],
     "type": "Handcannon"
+  },
+  "Phantom_Pain": {
+    "name": "Phantom Pain",
+    "rank": 6,
+    "stats": [
+      "Strength Boost",
+      "Arts Intensity Boost",
+      "Suppression"
+    ],
+    "type": "Greatsword"
   },
   "Prominent_Edge": {
     "name": "Prominent Edge",

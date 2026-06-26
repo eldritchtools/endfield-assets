@@ -236,6 +236,10 @@
   "final-strike": {
     "name": "Final Strike"
   },
+  "firefang-vesperwings": {
+    "color": "#33C2FF",
+    "name": "Firefang Vesperwings"
+  },
   "focus": {
     "color": "#33C2FF",
     "name": "Focus"

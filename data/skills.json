@@ -191,6 +191,40 @@
       ]
     }
   },
+  "camille": {
+    "attack": {
+      "description": "BASIC ATTACK: An attack with up to 5 sequences that deals {Heat DMG}. As the controlled operator, {Final Strike} also deals 18 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Heat DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive {Heat DMG} and recovers some SP.",
+      "name": "Sanguine Absolution"
+    },
+    "combo": {
+      "description": "COMBO TRIGGER: When an enemy's Heat Infliction is consumed or absorbed.\nSKILL DESCRIPTION: Performs a returning dash that deals {Heat DMG} and recovers some SP.",
+      "inTriggers": [
+        "heat-infliction-consumed",
+        "firefang-vesperwings"
+      ],
+      "name": "Heartstake Thorn"
+    },
+    "skill": {
+      "description": "SKILL DESCRIPTION: Camille summons {Firefang Vesperwings} that fly towards the enemy to deal {Heat DMG} and apply {Heat Infliction} on enemies in a small area of effect. The {Firefang Vesperwings} then temporarily hover around the target and apply Weakness and {Heat Susceptibility} to the said target for the duration of the hovering. When the target is defeated, the {Firefang Vesperwings} fly to another nearby enemy, deal {Heat DMG}, and apply {Heat Infliction}, Weakness, and {Heat Susceptibility} to the new target. Hitting an enemy with hovering {Firefang Vesperwings} with Camille's combo skill sets off an explosion after a short delay. This explosion deals additional {Heat DMG}.",
+      "name": "Blazing Exorcism",
+      "outTriggers": [
+        "heat-infliction",
+        "heat-susceptibility",
+        "weaken",
+        "firefang-vesperwings"
+      ]
+    },
+    "ultimate": {
+      "description": "SKILL DESCRIPTION: Camille flies to the sky, rains down a barrage of spears, and follows through with a sweep attack. This deals {Heat DMG} and applies {Heat Infliction} to target(s) hit while recovering some SP. After casting the ultimate, Camille's battle skill is temporarily transformed into Hunter Pursuit. Hunter Pursuit: Treated as a combo skill and costs no SP. It is a dash attack that deals {Heat DMG} and recovers some SP.",
+      "inTriggers": [
+        "firefang-vesperwings"
+      ],
+      "name": "Sanguine Downpour",
+      "outTriggers": [
+        "heat-infliction"
+      ]
+    }
+  },
   "catcher": {
     "attack": {
       "description": "BASIC ATTACK: An attack with up to 4 sequences that deals {Physical DMG}. As the controlled operator, {Final Strike} also deals 22 Stagger.\nDIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals {Physical DMG} to nearby enemies.\nFINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive {Physical DMG} and recovers some SP.",

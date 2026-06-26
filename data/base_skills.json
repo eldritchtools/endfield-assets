@@ -179,6 +179,36 @@
       }
     ]
   },
+  "camille": {
+    "baseSkills": [
+      {
+        "name": "Hemo-Vitreography",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to grant vitrified plant growth rate +20%",
+          "Assign to Growth Chamber to grant vitrified plant growth rate +30%"
+        ],
+        "type": "plant",
+        "values": [
+          0.2,
+          0.3
+        ]
+      },
+      {
+        "name": "Agaš'mekanaz's Manual",
+        "room": "MFG",
+        "texts": [
+          "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%",
+          "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +30%"
+        ],
+        "type": "operator xp",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
+  },
   "catcher": {
     "baseSkills": [
       {
