@@ -8,6 +8,9 @@
   "antal": {
     "name": "Antal"
   },
+  "arcane": {
+    "name": "Arcane"
+  },
   "arclight": {
     "name": "Arclight"
   },
@@ -52,6 +55,9 @@
   },
   "lifeng": {
     "name": "Lifeng"
+  },
+  "liino": {
+    "name": "Liino"
   },
   "mi-fu": {
     "name": "Mi Fu"

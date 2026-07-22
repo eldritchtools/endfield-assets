@@ -189,6 +189,16 @@
     ],
     "type": "Greatsword"
   },
+  "Farsight": {
+    "name": "Farsight",
+    "rank": 6,
+    "stats": [
+      "Main Attribute Boost",
+      "Arts Intensity Boost",
+      "Assault"
+    ],
+    "type": "Sword"
+  },
   "Finchaser_3.0": {
     "name": "Finchaser 3.0",
     "rank": 5,
@@ -279,6 +289,16 @@
     ],
     "type": "Sword"
   },
+  "Golden_Age": {
+    "name": "Golden Age",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Treatment Efficiency Boost",
+      "Pursuit"
+    ],
+    "type": "Polearm"
+  },
   "Grand_Vision": {
     "name": "Grand Vision",
     "rank": 6,
@@ -346,6 +366,16 @@
       "Main Attribute Boost",
       "",
       "Assault"
+    ],
+    "type": "Arts Unit"
+  },
+  "Junction_Point": {
+    "name": "Junction Point",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Ultimate Gain Boost",
+      "Efficacy"
     ],
     "type": "Arts Unit"
   },
@@ -668,6 +698,16 @@
       "Infliction"
     ],
     "type": "Sword"
+  },
+  "Type_42_Solemn_Phalanx": {
+    "name": "Type 42: Solemn Phalanx",
+    "rank": 6,
+    "stats": [
+      "Intellect Boost",
+      "Ultimate Gain Boost",
+      "Detonate"
+    ],
+    "type": "Arts Unit"
   },
   "Umbral_Torch": {
     "name": "Umbral Torch",

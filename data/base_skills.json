@@ -89,6 +89,36 @@
       }
     ]
   },
+  "arcane": {
+    "baseSkills": [
+      {
+        "name": "Pluck the Mountain, Boil the Sea",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to grant rare mineral growth rate +20%",
+          "Assign to Growth Chamber to grant rare mineral growth rate +30%"
+        ],
+        "type": "mineral",
+        "values": [
+          0.2,
+          0.3
+        ]
+      },
+      {
+        "name": "Botanophile",
+        "room": "GC",
+        "texts": [
+          "Assign to Growth Chamber to grant vitrified plant growth rate +20%",
+          "Assign to Growth Chamber to grant vitrified plant growth rate +30%"
+        ],
+        "type": "plant",
+        "values": [
+          0.2,
+          0.3
+        ]
+      }
+    ]
+  },
   "arclight": {
     "baseSkills": [
       {

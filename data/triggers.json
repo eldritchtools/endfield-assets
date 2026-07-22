@@ -1,4 +1,12 @@
 {
+  "array-arcana-int": {
+    "color": "#33C2FF",
+    "name": "Array Arcana: INT"
+  },
+  "array-arcana-will": {
+    "color": "#33C2FF",
+    "name": "Array Arcana: WILL"
+  },
   "arts-amp": {
     "color": "#33C2FF",
     "icon": true,
@@ -81,6 +89,10 @@
   "breath-of-transformation": {
     "color": "#33C2FF",
     "name": "Breath of Transformation"
+  },
+  "cluster-strike": {
+    "color": "#33C2FF",
+    "name": "Cluster Strike"
   },
   "combustion": {
     "color": "#FF853F",
@@ -168,6 +180,11 @@
       "arts-infliction-consumed"
     ]
   },
+  "cryo-susceptibility": {
+    "color": "#00C0CB",
+    "icon": true,
+    "name": "Cryo Susceptibility"
+  },
   "electric-amp": {
     "color": "#FDC038",
     "icon": true,
@@ -244,6 +261,14 @@
     "color": "#33C2FF",
     "name": "Focus"
   },
+  "gloompurger-arcana": {
+    "color": "#33C2FF",
+    "name": "Gloompurger Arcana"
+  },
+  "gloompurger-array": {
+    "color": "#33C2FF",
+    "name": "Gloompurger Array"
+  },
   "heat-amp": {
     "color": "#FF853F",
     "icon": true,
@@ -291,13 +316,25 @@
     "color": "#ABD040",
     "name": "HP Treatment"
   },
+  "hunter-pursuit": {
+    "color": "#33C2FF",
+    "name": "Hunter Pursuit"
+  },
   "hypothermic-perfusion": {
     "color": "#33C2FF",
     "name": "Hypothermic Perfusion"
   },
+  "imprisonment": {
+    "color": "#33C2FF",
+    "name": "Imprisonment"
+  },
   "improvised-explosive": {
     "color": "#33C2FF",
     "name": "Improvised Explosive"
+  },
+  "jadecrushing-grid": {
+    "color": "#33C2FF",
+    "name": "Jadecrushing Grid"
   },
   "knock-down": {
     "color": "#DFBB92",
@@ -371,6 +408,11 @@
     "parents": [
       "arts-infliction-consumed"
     ]
+  },
+  "nature-susceptibility": {
+    "color": "#9CD54A",
+    "icon": true,
+    "name": "Nature Susceptibility"
   },
   "olden-stare": {
     "color": "#33C2FF",
@@ -473,6 +515,10 @@
     ],
     "color": "#33C2FF",
     "name": "Sunderblade"
+  },
+  "tactical-doubles": {
+    "color": "#33C2FF",
+    "name": "Tactical Doubles"
   },
   "thunderlance": {
     "alts": [
