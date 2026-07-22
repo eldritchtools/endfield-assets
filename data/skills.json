@@ -97,7 +97,7 @@
       "name": "Artillery Interdiction"
     },
     "combo": {
-      "description": "Intellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nCOMBO TRIGGER: When {Nature Infliction} or at least 2 stacks of non-Nature {Arts Infliction} are applied on an enemy.\nSKILL DESCRIPTION: Arcane charges at the target and sets up 4 Tactical Doubles that apply {Nature Susceptibility} and {Cryo Susceptibility} and deal {Nature DMG} to the target and nearby enemies, and also apply {Imprisonment} on the said target. When {Imprisonment} ends, the Tactical Doubles will attack the said target to deal Explosion DMG.\n{Imprisonment}: A debuff that slows all actions.\nArray Arcana: INT:\n- Hitting an enemy under {Imprisonment} with Arcane's battle skill returns some SP, ends the {Imprisonment} early, deals Explosion DMG, applies another instance of {Nature Susceptibility} and {Cryo Susceptibility}, and deals multiple hits of bonus DMG after a short delay.\n- Combo skill cooldown is shorter.",
+      "description": "Intellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nCOMBO TRIGGER: When {Nature Infliction} or at least 2 stacks of non-Nature {Arts Infliction} are applied on an enemy.\nSKILL DESCRIPTION: Arcane charges at the target and sets up 4 {Tactical Doubles} that apply {Nature Susceptibility} and {Cryo Susceptibility} and deal {Nature DMG} to the target and nearby enemies, and also apply {Imprisonment} on the said target. When {Imprisonment} ends, the {Tactical Doubles} will attack the said target to deal Explosion DMG.\n{Imprisonment}: A debuff that slows all actions.\nArray Arcana: INT:\n- Hitting an enemy under {Imprisonment} with Arcane's battle skill returns some SP, ends the {Imprisonment} early, deals Explosion DMG, applies another instance of {Nature Susceptibility} and {Cryo Susceptibility}, and deals multiple hits of bonus DMG after a short delay.\n- Combo skill cooldown is shorter.",
       "inTriggers": [
         "nature-infliction",
         "arts-infliction"
@@ -106,29 +106,34 @@
       "outTriggers": [
         "nature-susceptibility",
         "cryo-susceptibility",
-        "imprisonment"
+        "imprisonment",
+        "tactical-doubles"
       ]
     },
     "name": "Arcane (INT)",
     "opId": "arcane",
     "skill": {
-      "description": "SKILL DESCRIPTION: Creates a Jadecrushing Grid that deals {Nature DMG} and applies {Nature Infliction} to enemies within the area of effect.\nIntellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- Deals more DMG.",
+      "description": "SKILL DESCRIPTION: Creates a {Jadecrushing Grid} that deals {Nature DMG} and applies {Nature Infliction} to enemies within the area of effect.\nIntellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- Deals more DMG.",
       "inTriggers": [
         "imprisonment"
       ],
       "name": "Jadecrushing Grid",
       "outTriggers": [
-        "nature-infliction"
+        "nature-infliction",
+        "jadecrushing-grid"
       ]
     },
     "ultimate": {
-      "description": "SKILL DESCRIPTION: Arcane creates a Gloompurger Array that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the Gloompurger Array with a Finisher or a {Final Strike} performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nIntellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- When created, the Gloompurger Array also forcibly applies {Corrosion} to enemies in the AOE.",
+      "description": "SKILL DESCRIPTION: Arcane creates a {Gloompurger Array} that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the {Gloompurger Array} with a Finisher or a {Final Strike} performed by the controlled operator, the {Gloompurger Array} unleashes a {Cluster Strike} that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering {Cluster Strike} 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nIntellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- When created, the {Gloompurger Array} also forcibly applies {Corrosion} to enemies in the AOE.",
       "inTriggers": [
         "final-strike"
       ],
       "name": "Gloompurge",
       "outTriggers": [
-        "corrosion"
+        "corrosion",
+        "gloompurger-array",
+        "gloompurger-arcana",
+        "cluster-strike"
       ]
     }
   },
@@ -138,7 +143,7 @@
       "name": "Artillery Interdiction"
     },
     "combo": {
-      "description": "Will (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nCOMBO TRIGGER: When an {Arts Infliction} is applied on an enemy.\nSKILL DESCRIPTION: Arcane charges at the target and sets up 4 Tactical Doubles that deal {Nature DMG} and apply another stack of {Arts Infliction} of the same element, {Nature Susceptibility}, and {Cryo Susceptibility} to the target and nearby enemies, and also apply Imprisonment on the said target. When Imprisonment ends, the Tactical Doubles will attack the said target to deal Explosion DMG.\nImprisonment: A debuff that slows all actions.\nArray Arcana: WILL:\n- Applying Imprisonment by casting a combo skill will also slightly pull in enemies near the target.\n- The attribute of Will can further increase the effects of {Nature Susceptibility} and {Cryo Susceptibility} applied by the combo skill.",
+      "description": "Will (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nCOMBO TRIGGER: When an {Arts Infliction} is applied on an enemy.\nSKILL DESCRIPTION: Arcane charges at the target and sets up 4 {Tactical Doubles} that deal {Nature DMG} and apply another stack of {Arts Infliction} of the same element, {Nature Susceptibility}, and {Cryo Susceptibility} to the target and nearby enemies, and also apply {Imprisonment} on the said target. When {Imprisonment} ends, the {Tactical Doubles} will attack the said target to deal Explosion DMG.\n{Imprisonment}: A debuff that slows all actions.\nArray Arcana: WILL:\n- Applying {Imprisonment} by casting a combo skill will also slightly pull in enemies near the target.\n- The attribute of Will can further increase the effects of {Nature Susceptibility} and {Cryo Susceptibility} applied by the combo skill.",
       "inTriggers": [
         "arts-infliction"
       ],
@@ -146,27 +151,33 @@
       "outTriggers": [
         "arts-infliction",
         "nature-susceptibility",
-        "cryo-susceptibility"
+        "cryo-susceptibility",
+        "tactical-doubles",
+        "imprisonment"
       ]
     },
     "name": "Arcane (WILL)",
     "opId": "arcane",
     "skill": {
-      "description": "SKILL DESCRIPTION: Creates a Jadecrushing Grid that deals {Nature DMG} and applies {Nature Infliction} to enemies within the area of effect.\nWill (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When dealing DMG, the array also pulls in enemies within the area of effect.",
+      "description": "SKILL DESCRIPTION: Creates a {Jadecrushing Grid} that deals {Nature DMG} and applies {Nature Infliction} to enemies within the area of effect.\nWill (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When dealing DMG, the array also pulls in enemies within the area of effect.",
       "name": "Jadecrushing Grid",
       "outTriggers": [
-        "nature-infliction"
+        "nature-infliction",
+        "jadecrushing-grid"
       ]
     },
     "ultimate": {
-      "description": "SKILL DESCRIPTION: Arcane creates a Gloompurger Array that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the Gloompurger Array with a Finisher or a {Final Strike} performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nWill (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When created, the Gloompurger Array also targets enemies with {Arts Infliction} within its AOE, and applies another {Arts Infliction} stack of the same element to them.",
+      "description": "SKILL DESCRIPTION: Arcane creates a {Gloompurger Array} that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the {Gloompurger Array} with a Finisher or a {Final Strike} performed by the controlled operator, the {Gloompurger Array} unleashes a {Cluster Strike} that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering {Cluster Strike} 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nWill (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When created, the {Gloompurger Array} also targets enemies with {Arts Infliction} within its AOE, and applies another {Arts Infliction} stack of the same element to them.",
       "inTriggers": [
         "final-strike",
         "arts-infliction"
       ],
       "name": "Gloompurge",
       "outTriggers": [
-        "arts-infliction"
+        "arts-infliction",
+        "gloompurger-array",
+        "gloompurger-arcana",
+        "cluster-strike"
       ]
     }
   },
