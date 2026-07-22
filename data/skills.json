@@ -125,9 +125,6 @@
     },
     "ultimate": {
       "description": "SKILL DESCRIPTION: Arcane creates a {Gloompurger Array} that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the {Gloompurger Array} with a Finisher or a {Final Strike} performed by the controlled operator, the {Gloompurger Array} unleashes a {Cluster Strike} that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering {Cluster Strike} 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nIntellect (N) ≥ Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- When created, the {Gloompurger Array} also forcibly applies {Corrosion} to enemies in the AOE.",
-      "inTriggers": [
-        "final-strike"
-      ],
       "name": "Gloompurge",
       "outTriggers": [
         "corrosion",
@@ -169,7 +166,6 @@
     "ultimate": {
       "description": "SKILL DESCRIPTION: Arcane creates a {Gloompurger Array} that immediately deals {Nature DMG} to enemies within the area of effect (AOE).\nWhen hitting an enemy within the {Gloompurger Array} with a Finisher or a {Final Strike} performed by the controlled operator, the {Gloompurger Array} unleashes a {Cluster Strike} that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering {Cluster Strike} 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals {Nature DMG} to enemies within a large AOE.\nWill (N) ＞ Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When created, the {Gloompurger Array} also targets enemies with {Arts Infliction} within its AOE, and applies another {Arts Infliction} stack of the same element to them.",
       "inTriggers": [
-        "final-strike",
         "arts-infliction"
       ],
       "name": "Gloompurge",
