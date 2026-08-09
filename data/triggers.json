@@ -130,6 +130,10 @@
       "arts-reaction-consumed"
     ]
   },
+  "cosmovoice-stance": {
+    "color": "#33C2FF",
+    "name": "Cosmovoice Stance"
+  },
   "crush": {
     "color": "#DFBB92",
     "icon": true,
@@ -184,6 +188,10 @@
     "color": "#00C0CB",
     "icon": true,
     "name": "Cryo Susceptibility"
+  },
+  "delightful-harmonics": {
+    "color": "#33C2FF",
+    "name": "Delightful Harmonics"
   },
   "electric-amp": {
     "color": "#FDC038",
@@ -245,6 +253,10 @@
     "parents": [
       "arts-reaction-consumed"
     ]
+  },
+  "electrifying-extravaganza": {
+    "color": "#33C2FF",
+    "name": "Electrifying Extravaganza"
   },
   "empyrean-of-truth": {
     "color": "#33C2FF",
@@ -533,6 +545,10 @@
     ],
     "color": "#33C2FF",
     "name": "Thunderlance EX"
+  },
+  "vocalist-stance": {
+    "color": "#33C2FF",
+    "name": "Vocalist Stance"
   },
   "vulnerability": {
     "color": "#DFBB92",

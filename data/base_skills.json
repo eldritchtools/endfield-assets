@@ -539,6 +539,36 @@
       }
     ]
   },
+  "liino": {
+    "baseSkills": [
+      {
+        "name": "Idol Passion",
+        "room": "RR",
+        "texts": [
+          "Assign to Reception Room to slow Mood Drop of all operators in it by 14%",
+          "Assign to Reception Room to slow Mood Drop of all operators in it by 18%"
+        ],
+        "type": "mood drain",
+        "values": [
+          0.14,
+          0.18
+        ]
+      },
+      {
+        "name": "Stage Vibe That Lingers",
+        "room": "CN",
+        "texts": [
+          "Assign to Control Nexus to grant all operators' Mood Regen +12%",
+          "Assign to Control Nexus to grant all operators' Mood Regen +16%"
+        ],
+        "type": "mood regen",
+        "values": [
+          0.12,
+          0.16
+        ]
+      }
+    ]
+  },
   "mi-fu": {
     "baseSkills": [
       {

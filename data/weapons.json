@@ -59,6 +59,16 @@
     ],
     "type": "Polearm"
   },
+  "Bedazzling_Night_Debut": {
+    "name": "Bedazzling Night Debut",
+    "rank": 6,
+    "stats": [
+      "Will Boost",
+      "Treatment Efficiency Boost",
+      "Medicant"
+    ],
+    "type": "Polearm"
+  },
   "Blessing_of_Lustrous_Carmine": {
     "name": "Blessing of Lustrous Carmine",
     "rank": 6,
